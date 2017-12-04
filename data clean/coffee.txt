@@ -1,0 +1,1616 @@
+Red Rover Café,Café,Café,1
+The Coffee Shop,Coffee Shop,Coffee Shop,1
+7-Eleven,Convenience Store,Convenience Store,1
+Center Stage,Snack Place,Snacks,1
+Caffè ArrivaDolce,Coffee Shop,Coffee Shop,1
+Bleecker St.,Café,Café,1
+Connections Café,Coffee Shop,Coffee Shop,1
+Dunkin' Donuts,Donut Shop,Donuts,1
+Café El Mesón,Café,Café,1
+Royal Tea Co,Food & Drink Shop,Food & Drink,1
+Starbucks,Coffee Shop,Coffee Shop,1
+Royal Coffee,Coffee Shop,Coffee Shop,1
+7-Eleven,Convenience Store,Convenience Store,1
+Dunkin' Donuts,Donut Shop,Donuts,1
+The Common Cup,Coffee Shop,Coffee Shop,1
+Dunkin' Donuts,Donut Shop,Donuts,1
+XO Marshmallow,Café,Café,1
+Keurig breakpoint,Coffee Shop,Coffee Shop,1
+the table,Coffee Shop,Coffee Shop,1
+Big Star Cafe,Coffee Shop,Coffee Shop,1
+Charmers Cafe,Café,Café,1
+Starbucks,Coffee Shop,Coffee Shop,1
+Dunkin' Donuts,Donut Shop,Donuts,1
+Cafe A,Café,Café,1
+Cafe B,Café,Café,1
+Sol Café,Café,Café,1
+Xtreme Access Internet Center,Coffee Shop,Coffee Shop,1
+Me Voici Cafe and Books,Coffee Shop,Coffee Shop,1
+Starbucks,Coffee Shop,Coffee Shop,1
+Rafaelo Cofee,Coffee Shop,Coffee Shop,2
+Dunkin' Donuts,Donut Shop,Donuts,2
+Internet Cafe of Chicago,Coffee Shop,Coffee Shop,2
+Boba Bee,Café,Café,2
+Dana Café,Café,Café,2
+One Happy Bean Cafe,Coffee Shop,Coffee Shop,2
+Lake Dental Laboratories,Coffee Shop,Coffee Shop,2
+Cafe Fortuna,Café,Café,2
+Dunkin' Donuts,Donut Shop,Donuts,2
+7-Eleven,Convenience Store,Convenience Store,2
+Starbucks,Coffee Shop,Coffee Shop,2
+Starbucks,Coffee Shop,Coffee Shop,2
+Starbucks,Coffee Shop,Coffee Shop,2
+Perk Up,Café,Café,2
+Dunkin' Donuts,Donut Shop,Donuts,2
+Luxor Cafe,Café,Café,2
+insomniabook cafe,Coffee Shop,Coffee Shop,2
+Ashur Cafe,Coffee Shop,Coffee Shop,2
+Dunkin' Donuts,Donut Shop,Donuts,2
+Rayees Cafe,Café,Café,2
+Dunkin Donuts,Donut Shop,Donuts,2
+7-Eleven,Convenience Store,Convenience Store,2
+7-Eleven,Convenience Store,Convenience Store,2
+Dunkin' Donuts,Donut Shop,Donuts,2
+Starbucks,Coffee Shop,Coffee Shop,2
+Coronas Coffee Shop,Coffee Shop,Coffee Shop,3
+Mocha Coffee Deli & Bakery,Coffee Shop,Coffee Shop,3
+Dollop Coffee & Tea Co.,Coffee Shop,Coffee Shop,3
+7-Eleven,Convenience Store,Convenience Store,3
+Side Bar Cafe,Café,Café,3
+Starbucks,Coffee Shop,Coffee Shop,3
+The Maiden Voyage Cafe,Café,Café,3
+Urban tea lounge,Tea Room,Tea Room,3
+The Satellite Cafe,Coffee Shop,Coffee Shop,3
+Starbucks,Coffee Shop,Coffee Shop,3
+Dunkin Donuts,Donut Shop,Donuts,3
+Inspiration Cafe,Diner,Diner,3
+Heritage Outpost,Coffee Shop,Coffee Shop,3
+Emerald City Coffee,Coffee Shop,Coffee Shop,3
+Citizen Skate Cafe,Café,Café,3
+Everybody's Coffee,Coffee Shop,Coffee Shop,3
+Uptown Café,Café,Café,3
+7-Eleven,Convenience Store,Convenience Store,3
+Direct Cafe,Café,Café,3
+Teavana Tea Store,Tea Room,Tea Room,3
+Dunkin' Donuts,Donut Shop,Donuts,3
+Ridman’s Coffee,Coffee Shop,Coffee Shop,3
+Keystone Cafe,Coffee Shop,Coffee Shop,3
+Starbucks,Coffee Shop,Coffee Shop,3
+FITFRESH Cafe & Juice Bar,Juice Bar,Juice Bar,3
+Heritage Outpost,Coffee Shop,Coffee Shop,3
+Heritage Outpost,Coffee Shop,Coffee Shop,3
+Furama,Chinese Restaurant,Chinese,3
+Kaity's Coffee Shop,Coffee Shop,Coffee Shop,3
+three r'S,Café,Café,3
+boba teahouse,Café,Café,3
+First Sip,Coffee Shop,Coffee Shop,3
+Ciat Cafe,Café,Café,3
+Cafe Loa Restaurant,Café,Café,3
+Dunkin' Donuts,Donut Shop,Donuts,3
+La Colombe Coffee Roasters,Coffee Shop,Coffee Shop,3
+Lutz Pastry Cafe,Bakery,Bakery,4
+Guatemala Aroma and Cafe,Coffee Shop,Coffee Shop,4
+Spoken,Café,Café,4
+Starbucks,Coffee Shop,Coffee Shop,4
+La Catedral Cafe & Restaurant,Breakfast Spot,Breakfast,4
+Starbucks,Coffee Shop,Coffee Shop,4
+La Boulangerie,Bakery,Bakery,4
+River Valley Ranch & Kitchens,Gourmet Shop,Gourmet,4
+Grind Cafe Co,Coffee Shop,Coffee Shop,4
+7-Eleven,Convenience Store,Convenience Store,4
+Damen Kitchen & Cellar,Café,Café,4
+Dunkin Donuts,Donut Shop,Donuts,4
+Le Café,Café,Café,4
+Beans & Bagels,Coffee Shop,Coffee Shop,4
+Oromo Cafe,Café,Café,4
+Coffee Incredible,Café,Café,4
+The Perfect Cup,Coffee Shop,Coffee Shop,4
+Cafe Selmarie,Café,Café,4
+The Book Cellar,Bookstore,Bookstore,4
+Pannenkoeken Café,Breakfast Spot,Breakfast,4
+Bourbon Cafe,Café,Café,4
+Cafe Descartes,Coffee Shop,Coffee Shop,4
+Cafe Restaurant Sliven,Coffee Shop,Coffee Shop,4
+Duran Cafe,Coffee Shop,Coffee Shop,4
+Pickle's Playroom,Café,Café,4
+Dunkin' Donuts,Donut Shop,Donuts,4
+Vero Coffee and Gelato,Café,Café,4
+Groundswell Coffee Roasters,Coffee Shop,Coffee Shop,4
+Hilary's Cookies,Café,Café,4
+Bang Bang,Coffee Shop,Coffee Shop,4
+Groundswell Coffee Roasters,Coffee Shop,Coffee Shop,4
+molto dolice,Café,Café,4
+Cafe Royal T,Café,Café,4
+Libero Cafe,Lounge,Lounge,4
+Taza Coffee and Deli,Coffee Shop,Coffee Shop,4
+Big E's Coffee Lounge,Coffee Shop,Coffee Shop,4
+Au Bon Pain,Café,Café,4
+Dunkin' Donuts,Donut Shop,Donuts,4
+7-Eleven,Convenience Store,Convenience Store,4
+Lavazza Coffee,Café,Café,4
+Uteja,Café,Café,4
+Royal T Cafe,Café,Café,4
+Garam Cafe,Coffee Shop,Coffee Shop,4
+Java N Mug Café,Café,Café,4
+7-Eleven,Convenience Store,Convenience Store,4
+East Cafe and Restaurant,Coffee Shop,Coffee Shop,4
+90 Miles Cuban Cafe,Cuban Restaurant,Cuban,5
+Cafe Du Fletch,Café,Café,5
+Starbucks,Coffee Shop,Coffee Shop,5
+Vero Coffee and Gelato,Coffee Shop,Coffee Shop,5
+Mojoes's Cafe Lounge,Coffee Shop,Coffee Shop,5
+Hero Coffee Bar,Coffee Shop,Coffee Shop,5
+Starbucks,Coffee Shop,Coffee Shop,5
+Dunkin Donuts,Donut Shop,Donuts,5
+Starbucks,Coffee Shop,Coffee Shop,5
+Delicious Café,Vegetarian / Vegan Restaurant,Vegetarian / Vegan,5
+Stubbs Coffee,Coffee Shop,Coffee Shop,5
+Coffee Joint,Coffee Shop,Coffee Shop,5
+Internet Cafe,Café,Café,5
+Ritual Coffee House,Café,Café,5
+Starbucks,Coffee Shop,Coffee Shop,5
+Dunkin Donuts,Donut Shop,Donuts,5
+Red Eyes Coffee,Coffee Shop,Coffee Shop,5
+Cafe La Berteau,Café,Café,5
+Space Ghost Office Coffee Machine,Coffee Shop,Coffee Shop,5
+Department of Coffee and Social Affairs,Coffee Shop,Coffee Shop,6
+Tea Gschwendner,Tea Room,Tea Room,6
+Beermiscuous,Bar,Bar,6
+7-Eleven,Convenience Store,Convenience Store,6
+Starbucks,Coffee Shop,Coffee Shop,6
+Stan's Donuts & Coffee,Donut Shop,Donuts,6
+beeZzee,Salad Place,Salad,6
+7-Eleven,Convenience Store,Convenience Store,6
+2800 N. Lake Shore Dr Vending Area,Tea Room,Tea Room,6
+Shift on Sheffield Cafe,Coffee Shop,Coffee Shop,6
+Heritage Littles,Café,Café,6
+Wheat's End,Café,Café,6
+Starbucks,Coffee Shop,Coffee Shop,6
+Starbucks at Jewel,Coffee Shop,Coffee Shop,6
+doughnut vault popup,Donut Shop,Donuts,6
+Heritage Bicycles,Coffee Shop,Coffee Shop,6
+Aje Café Sandwiches & Coffee,Café,Café,6
+Dunkin Donuts,Donut Shop,Donuts,6
+Panes Bread Cafe,Café,Café,6
+Bobtail Ice Cream Company,Ice Cream Shop,Ice Cream,6
+Ara On Café Kiosk,Café,Café,6
+Starbucks,Coffee Shop,Coffee Shop,6
+Peet's Coffee & Tea,Coffee Shop,Coffee Shop,6
+Starbucks,Coffee Shop,Coffee Shop,6
+Intelligentsia Coffee,Coffee Shop,Coffee Shop,6
+Argo Tea,Tea Room,Tea Room,6
+fennel & iris,Tea Room,Tea Room,6
+Maui wow,Café,Café,6
+Starbucks,Coffee Shop,Coffee Shop,6
+Osmium Coffee Bar,Coffee Shop,Coffee Shop,6
+Bittersweet Pastry Shop & Cafe,Bakery,Bakery,6
+Allegro Coffee Roasters,Coffee Shop,Coffee Shop,6
+Dunkin Donuts,Donut Shop,Donuts,6
+Ann Sather,Scandinavian Restaurant,Scandinavian,6
+11 Degrees North,Coffee Shop,Coffee Shop,6
+The House Cafe,Coffee Shop,Coffee Shop,6
+Maison Parisienne,Café,Café,6
+Stan's Donuts & Coffee,Donut Shop,Donuts,6
+The Coffee & Tea Exchange,Gourmet Shop,Gourmet,6
+Cranky Dan's,Donut Shop,Donuts,6
+Metropolis,Café,Café,6
+Enoch's Doughnuts,Donut Shop,Donuts,6
+Starbucks,Coffee Shop,Coffee Shop,6
+Einstein Bros Bagels,Bagel Shop,Bagels,6
+Yefseis Café,Coffee Shop,Coffee Shop,6
+Two Hearted Queen,Café,Café,6
+Starbucks,Coffee Shop,Coffee Shop,6
+Starbucks,Coffee Shop,Coffee Shop,6
+7-Eleven,Convenience Store,Convenience Store,6
+Pick Me Up Café,Diner,Diner,6
+Loba Pastry + Coffee,Coffee Shop,Coffee Shop,6
+The Bobtail Cafe,Café,Café,6
+Capital One Café,Café,Café,6
+Peet's Coffee & Tea,Coffee Shop,Coffee Shop,6
+Wired Coffee Bar,Coffee Shop,Coffee Shop,6
+Lakeview Rewired Cafe,Coffee Shop,Coffee Shop,6
+Deuces Wild,Café,Café,6
+DAVIDsTEA,Tea Room,Tea Room,6
+Real Good Juice Co.,Café,Café,6
+Southport Grocery & Cafe,Breakfast Spot,Breakfast,6
+Dunkin Donuts,Donut Shop,Donuts,6
+Starbucks,Coffee Shop,Coffee Shop,6
+Dunkin' Donuts,Donut Shop,Donuts,6
+Julius Meinl Coffee House,Coffee Shop,Coffee Shop,6
+Café Tola,Café,Café,6
+Cafe Michael,Café,Café,6
+North Coast Cafe,Café,Café,6
+Starbucks,Coffee Shop,Coffee Shop,6
+B&D's Keurig,Café,Café,6
+Rare Tea Cellar,Tea Room,Tea Room,6
+7-Eleven,Convenience Store,Convenience Store,6
+Coffee Tree & Tea Leaves,Coffee Shop,Coffee Shop,6
+BA Coffee Co. of Hawaii,Coffee Shop,Coffee Shop,6
+Uncommon Ground,New American Restaurant,New American,6
+Emerald City Coffee,Coffee Shop,Coffee Shop,6
+7-Eleven,Convenience Store,Convenience Store,6
+Steingold's of Chicago,Bagel Shop,Bagels,6
+Dunkin' Donuts,Donut Shop,Donuts,6
+Starbucks,Coffee Shop,Coffee Shop,6
+Asado Coffee Co,Coffee Shop,Coffee Shop,6
+The Bean Caffe,Coffee Shop,Coffee Shop,6
+Julius Meinl,Coffee Shop,Coffee Shop,6
+7-Eleven,Convenience Store,Convenience Store,6
+7-Eleven,Convenience Store,Convenience Store,6
+Dunkin Donuts,Donut Shop,Donuts,6
+Peet's Coffee & Tea,Coffee Shop,Coffee Shop,7
+Pipers Alley Mall,Shopping Mall,Mall,7
+North & Clark Cafe At The Chicago Historical Museum,Café,Café,7
+Starbucks,Coffee Shop,Coffee Shop,7
+Front Bar Coffee and Drinks,Café,Café,7
+Cafe' DoiTung,Café,Café,7
+H Toder and Company,Coffee Shop,Coffee Shop,7
+Northstar Cafe,Café,Café,7
+Elaine's Coffee Call,Coffee Shop,Coffee Shop,7
+Dunkin' Donuts,Donut Shop,Donuts,7
+Starbucks,Coffee Shop,Coffee Shop,7
+7-Eleven,Convenience Store,Convenience Store,7
+Glazed & Infused,Donut Shop,Donuts,7
+La Colombe,Coffee Shop,Coffee Shop,7
+7-Eleven,Convenience Store,Convenience Store,7
+Café Brauer,Café,Café,7
+Starbucks,Coffee Shop,Coffee Shop,7
+CityGrounds Coffee Bar,Coffee Shop,Coffee Shop,7
+Vanille Patisserie,Bakery,Bakery,7
+Park Place Café,Café,Café,7
+7-Eleven,Convenience Store,Convenience Store,7
+Organic one cafe,Café,Café,7
+High End Coffee Cafe & Juice Bar,Café,Café,7
+Starbucks,Coffee Shop,Coffee Shop,7
+chicago picnic,Café,Café,7
+Floriole Cafe & Bakery,Café,Café,7
+Creperie de Paris,French Restaurant,French,7
+Siena by maria,Café,Café,7
+Landmark Cafe,Café,Café,7
+Starbucks,Coffee Shop,Coffee Shop,7
+Cafe At Wild Things!,Café,Café,7
+Kim & Scott's Cafe Twist,Café,Café,7
+Brownstone's Café,Café,Café,7
+Starbucks,Coffee Shop,Coffee Shop,7
+7-Eleven,Convenience Store,Convenience Store,7
+The Eatery,Café,Café,7
+McGowan Cafe,Coffee Shop,Coffee Shop,7
+Dunkin' Donuts,Donut Shop,Donuts,7
+Siena Coffee,Coffee Shop,Coffee Shop,7
+The Bean Caffe,Coffee Shop,Coffee Shop,7
+7-Eleven,Convenience Store,Convenience Store,7
+Starbucks,Coffee Shop,Coffee Shop,7
+Nada Tea & Coffee House,Tea Room,Tea Room,7
+Buna Time Cafe,Café,Café,7
+Dunkin' Donuts,Donut Shop,Donuts,7
+Starbucks,Coffee Shop,Coffee Shop,7
+Cliff & Pebble,Coffee Shop,Coffee Shop,7
+Bourgeois Pig,Coffee Shop,Coffee Shop,7
+Barista Express,Coffee Shop,Coffee Shop,7
+The Bagelers Coffeehouse,Coffee Shop,Coffee Shop,7
+Firecakes,Donut Shop,Donuts,7
+Starbucks,Coffee Shop,Coffee Shop,7
+Starbucks Coffee,Coffee Shop,Coffee Shop,7
+Printers Row Coffee Co,Coffee Shop,Coffee Shop,7
+Cafe Vienna,Café,Café,7
+Colectivo Coffee Roasters,Coffee Shop,Coffee Shop,7
+Starbucks,Coffee Shop,Coffee Shop,7
+Starbucks,Coffee Shop,Coffee Shop,7
+Te Milk Tea House,Tea Room,Tea Room,7
+7-Eleven,Convenience Store,Convenience Store,7
+Té,Tea Room,Tea Room,7
+7-Eleven,Convenience Store,Convenience Store,7
+Java Coast,Café,Café,7
+Next Door,Coworking Space,Coworking Space,7
+Dunkin' Donuts,Donut Shop,Donuts,7
+7-Eleven,Convenience Store,Convenience Store,7
+Starbucks,Coffee Shop,Coffee Shop,7
+Artisan Cellar,Gourmet Shop,Gourmet,8
+caffe baci,Café,Café,8
+Ember Grille,Café,Café,8
+River North Bistro,Café,Café,8
+Cafe 300,Food Court,Food Court,8
+Au Bon Pain,Café,Café,8
+Cafe 353,Café,Café,8
+Dunkin Donuts,Donut Shop,Donuts,8
+Starbucks,Coffee Shop,Coffee Shop,8
+7-Eleven,Convenience Store,Convenience Store,8
+Freshii,Salad Place,Salad,8
+Coffee Bar @Ogilvy,Coffee Shop,Coffee Shop,8
+Pavilion,Tea Room,Tea Room,8
+Cast Cafe,Café,Café,8
+Lounge 1447,Café,Café,8
+Argo Tea,Café,Café,8
+Café Umbria,Coffee Shop,Coffee Shop,8
+Sun-Times Break Room,Café,Café,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Fifteen Fine Dining,Café,Café,8
+Sheraton Link Cafe,Café,Café,8
+The Doughnut Vault,Donut Shop,Donuts,8
+Einstein Bros Bagels,Bagel Shop,Bagels,8
+Cafe 330,Café,Café,8
+Peet's Coffee & Tea,Coffee Shop,Coffee Shop,8
+Peet's Coffee,Coffee Shop,Coffee Shop,8
+Espressamente Illy,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+7-Eleven,Convenience Store,Convenience Store,8
+Starbucks,Coffee Shop,Coffee Shop,8
+3 Greens Market,Café,Café,8
+Firecakes Donuts,Donut Shop,Donuts,8
+Glazed and Infused,Donut Shop,Donuts,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Argo Tea,Tea Room,Tea Room,8
+Enolo Wine Cafe,Wine Bar,Wine Bar,8
+Caffe Vergnano Eataly,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+7-Eleven,Convenience Store,Convenience Store,8
+Café Nordstrom,Café,Café,8
+Corner Bakery,Sandwich Place,Sandwiches,8
+Starbucks Flagship At Rush & Oak,Coffee Shop,Coffee Shop,8
+Laura's City Lounge,Tea Room,Tea Room,8
+Goddess and The Baker Navy Pier,Café,Café,8
+Ebar,Coffee Shop,Coffee Shop,8
+Liquored-up Coffee,Coffee Shop,Coffee Shop,8
+Glass & Cup,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Stan's Donuts,Donut Shop,Donuts,8
+Blended Bean Café,Café,Café,8
+Joe's Be-bop Cafe,Café,Café,8
+rush street pantry,Café,Café,8
+Color Me Coffee,Coffee Shop,Coffee Shop,8
+Cafe 541,Café,Café,8
+Starbucks Chicago Downtown 🇺🇸,Coffee Shop,Coffee Shop,8
+Millenium Parking, LLC (Chicago and LaSalle),Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+7-Eleven,Convenience Store,Convenience Store,8
+Dollop Coffee & Tea,Coffee Shop,Coffee Shop,8
+Caffe' Vergnano,Coffee Shop,Coffee Shop,8
+Caffe Lavazza at Eataly,Café,Café,8
+Café Integral,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Lavazza,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Kafenio,Café,Café,8
+Dunkin' Donuts,Donut Shop,Donuts,8
+Nespresso Boutique,Coffee Shop,Coffee Shop,8
+Adagio Teas,Tea Room,Tea Room,8
+7-Eleven,Convenience Store,Convenience Store,8
+Peet's Coffee & Tea,Coffee Shop,Coffee Shop,8
+Dunkin' Donuts,Donut Shop,Donuts,8
+Dunkin' Donuts,Donut Shop,Donuts,8
+7-Eleven,Convenience Store,Convenience Store,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Julius Meinl,Café,Café,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Draftfcb East Campus Coffee Bar,Coffee Shop,Coffee Shop,8
+Draftfcb Erie Street Bistro,Café,Café,8
+7-Eleven,Convenience Store,Convenience Store,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Asado Coffee Roasters,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Draftfcb Coffee Bar,Coffee Shop,Coffee Shop,8
+Stan’s Donuts,Donut Shop,Donuts,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Do-Rite Donuts & Chicken,Donut Shop,Donuts,8
+Corner Bakery,Sandwich Place,Sandwiches,8
+Beatrix,Breakfast Spot,Breakfast,8
+Spice of Life Cafe (Northwestern Memorial Hospital),Café,Café,8
+Big Shoulders Coffee,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+The Italian Coffee Bar,Coffee Shop,Coffee Shop,8
+Cafe Descartes,Coffee Shop,Coffee Shop,8
+Allspice Cafe @ Northwestern Hospital,Food Court,Food Court,8
+Northwestern Cafe 251,Food Court,Food Court,8
+ikram,Boutique,Boutique,8
+Au Bon Pain,Sandwich Place,Sandwiches,8
+Jazzman's,Coffee Shop,Coffee Shop,8
+Sunny Side Up & Coffee Shoppe,Breakfast Spot,Breakfast,8
+Pierrot Gourmet,Café,Café,8
+Dunkin Donuts,Donut Shop,Donuts,8
+Cafe Iberico,Tapas Restaurant,Tapas,8
+Harry's Cafe at Northwestern University,Café,Café,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+7-Eleven,Convenience Store,Convenience Store,8
+Argo Tea,Tea Room,Tea Room,8
+Dunkin' Donuts,Donut Shop,Donuts,8
+Dunkin Donuts,Donut Shop,Donuts,8
+Puck's at the @MCAChicago by #WolfgangPuck,Café,Café,8
+K-Cafe,Café,Café,8
+Einstein Bros Bagels,Bagel Shop,Bagels,8
+Argo Tea,Tea Room,Tea Room,8
+Nina’s Café,College Cafeteria,Cafeteria,8
+The London,Café,Café,8
+Joe's Coffee Shop,Coffee Shop,Coffee Shop,8
+Macy's Taste Bar,Café,Café,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+FoodLife: Sacred Grounds,Café,Café,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Teavana,Tea Room,Tea Room,8
+The Market At Foodlife,Café,Café,8
+Sacred Grounds Bakery & Café,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Dropshot Coffee & Snack Bar,Coffee Shop,Coffee Shop,8
+Cafecito,Café,Café,8
+DAVIDsTEA,Tea Room,Tea Room,8
+Argo Tea,Tea Room,Tea Room,8
+Dollop,Coffee Shop,Coffee Shop,8
+FCB Chicago Coffee Bar,Coffee Shop,Coffee Shop,8
+Hancock Starbucks,Coffee Shop,Coffee Shop,8
+Architect's Corner,Café,Café,8
+The Daily Grind @ Kendall College,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Glazed And Infused,Donut Shop,Donuts,8
+Nespresso Boutique at Sur La Table,Coffee Shop,Coffee Shop,8
+Le Pain Quotidien | Gold Coast,Bakery,Bakery,8
+Blenz Coffee Bar & Newsstand,Coffee Shop,Coffee Shop,8
+King Cafe Gourmet & Go,Coffee Shop,Coffee Shop,8
+Petit Margeaux,Café,Café,8
+Forty Carrots,Café,Café,8
+Lavazza Espression,Coffee Shop,Coffee Shop,8
+Palm Court at The Drake Hotel,Tea Room,Tea Room,8
+Park Cafe,Coffee Shop,Coffee Shop,8
+Back Room,Café,Café,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Maple Street Cafe,Café,Café,8
+Whisper's Cafe,Café,Café,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Goddess and Grocer,Café,Café,8
+Barnes & Noble,Bookstore,Bookstore,8
+TeaGschwendner,Tea Room,Tea Room,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Eat Fit,Café,Café,8
+7-Eleven,Convenience Store,Convenience Store,8
+Panera Bread,Bakery,Bakery,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Dunkin' Donuts,Donut Shop,Donuts,8
+Cassava Cafe,Café,Café,8
+Dunkin' Donuts,Donut Shop,Donuts,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Intelligentsia Coffee,Coffee Shop,Coffee Shop,8
+Plum Market,Grocery Store,Grocery Store,8
+Starbucks,Coffee Shop,Coffee Shop,8
+3rd Coast Cafe & Wine Bar,Café,Café,8
+Public Express,Coffee Shop,Coffee Shop,8
+3 Arts Club Cafe,Café,Café,8
+PUBLIC Library & Coffee Bar,Bar,Bar,8
+3 Arts Club Pantry,Coffee Shop,Coffee Shop,8
+Adagio,Tea Room,Tea Room,8
+Allegro Coffee Company,Coffee Shop,Coffee Shop,8
+Kingsbury Street Cafe,Café,Café,8
+Eva's Cafe,Café,Café,8
+ROM Coffee Bar,Coffee Shop,Coffee Shop,8
+Blue Apron Cafe,Café,Café,8
+Lido's Cafe,Coffee Shop,Coffee Shop,8
+Pilsen Taqueria WFM,Café,Café,8
+Starbucks,Coffee Shop,Coffee Shop,8
+La Fournette,Bakery,Bakery,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Starbucks,Coffee Shop,Coffee Shop,8
+Dunkin Donuts,Donut Shop,Donuts,8
+Dunkin' Donuts,Donut Shop,Donuts,9
+The Cafe at LeFlour,Coffee Shop,Coffee Shop,9
+Grazie Coffee Cafe,Coffee Shop,Coffee Shop,9
+Dunkin' Donuts / Baskin Robbins,Donut Shop,Donuts,9
+Bona Cafe,Café,Café,10
+Avantgarde BG,Eastern European Restaurant,Eastern European,10
+Dunkin' Donuts,Donut Shop,Donuts,10
+Mather's More Than A Café,Café,Café,10
+Caribou Coffee,Coffee Shop,Coffee Shop,10
+Cafe Res,Café,Café,10
+The Bungalow cafe,Café,Café,10
+Dunkin' Donuts,Donut Shop,Donuts,10
+Starbucks,Coffee Shop,Coffee Shop,10
+Starbucks,Coffee Shop,Coffee Shop,10
+Cafe Ya,Coffee Shop,Coffee Shop,11
+Dunkin' Donuts,Donut Shop,Donuts,11
+7-Eleven,Convenience Store,Convenience Store,11
+Chicago Kitchen Express,Café,Café,11
+Dunkin' Donuts,Donut Shop,Donuts,11
+7-Eleven,Convenience Store,Convenience Store,11
+Dunkin Donuts,Donut Shop,Donuts,11
+7-Eleven,Convenience Store,Convenience Store,11
+Vero Coffee and Gelato,Café,Café,11
+Starbucks Higgins & River Road,Coffee Shop,Coffee Shop,11
+Cafe Stoa,Coffee Shop,Coffee Shop,11
+7-Eleven,Convenience Store,Convenience Store,11
+Dunkin' Donuts,Donut Shop,Donuts,12
+Dunkin' Donuts,Donut Shop,Donuts,12
+Starbucks,Coffee Shop,Coffee Shop,12
+Allegro Coffee Company,Coffee Shop,Coffee Shop,12
+Starbucks @ Dominick's,Coffee Shop,Coffee Shop,12
+Starbucks,Coffee Shop,Coffee Shop,12
+Starbucks,Coffee Shop,Coffee Shop,12
+Cafe Cleo,Café,Café,12
+Viking Café,Coffee Shop,Coffee Shop,13
+Cafe Victoria,Coffee Shop,Coffee Shop,13
+Alabina Cafe,Coffee Shop,Coffee Shop,13
+Starbucks,Coffee Shop,Coffee Shop,13
+Caribou Coffee,Coffee Shop,Coffee Shop,13
+Café Descartes,Coffee Shop,Coffee Shop,13
+Outdoor Cafe,Tea Room,Tea Room,13
+Java & Mug,Coffee Shop,Coffee Shop,13
+Art Zone Gallery Cafe,Café,Café,13
+7-Eleven,Convenience Store,Convenience Store,13
+Soprafina,Café,Café,13
+Dunkin Donuts,Donut Shop,Donuts,13
+Starbucks,Coffee Shop,Coffee Shop,13
+Panera Bread,Bakery,Bakery,13
+Casa Restaurant and Cafe,Coffee Shop,Coffee Shop,14
+7-Eleven,Convenience Store,Convenience Store,14
+Flavors On Avers,Coffee Shop,Coffee Shop,14
+Starbucks,Coffee Shop,Coffee Shop,14
+port center cafe,Café,Café,14
+Cafe Fez,Coffee Shop,Coffee Shop,14
+Go Coffee Etc,Coffee Shop,Coffee Shop,14
+First Slice Pie Cafe,Pie Shop,Pie Shop,14
+Brothers Coffee Shop,Coffee Shop,Coffee Shop,14
+Nighthawk,Cocktail Bar,Cocktail,14
+Cafe Chien,Coffee Shop,Coffee Shop,14
+Dunkin Donuts,Donut Shop,Donuts,14
+Astoria,Café,Café,14
+Alibaba Cafe and Restaurant,Coffee Shop,Coffee Shop,14
+Dunkin Donuts,Donut Shop,Donuts,14
+J M Surexpress,Coffee Shop,Coffee Shop,14
+brü coffeeworks,Coffee Shop,Coffee Shop,14
+Nancy's Rainbow,Coffee Shop,Coffee Shop,14
+RC Group Internet Computer Center,Coffee Shop,Coffee Shop,14
+Golden Grains,Donut Shop,Donuts,14
+Starbucks,Coffee Shop,Coffee Shop,14
+Dunkin' Donuts,Donut Shop,Donuts,14
+Café Bundé,Café,Café,14
+Mathers More Than A Cafe 3235 N Central Chicago,Building,Building,15
+Retro Cafe,Polish Restaurant,Polish,15
+Corinth Cafe,Coffee Shop,Coffee Shop,15
+Chicago Sweatlodge,Spa,Spa,15
+7-Eleven,Convenience Store,Convenience Store,15
+Dunkin' Donuts,Donut Shop,Donuts,15
+Portage Grounds,Coffee Shop,Coffee Shop,15
+Perkolator,Coffee Shop,Coffee Shop,15
+Tea'se Tea Shoppe,Tea Room,Tea Room,15
+7-Eleven,Convenience Store,Convenience Store,15
+Dunkin' Donuts,Donut Shop,Donuts,15
+City Newsstand,Newsstand,Newsstand,15
+City News Cafe,Café,Café,15
+Coffee Cafe,Coffee Shop,Coffee Shop,15
+Dunkin' Donuts,Donut Shop,Donuts,15
+Dunkin' Donuts,Donut Shop,Donuts,15
+Luxury Cafe,Café,Café,15
+Fannie's,Café,Café,15
+Ewa's European Snack Bar Cafe,Coffee Shop,Coffee Shop,15
+City Cafe,Café,Café,16
+Curio Cafe,Café,Café,16
+Cafe de PJ,Coffee Shop,Coffee Shop,16
+Dunkin' Donuts,Donut Shop,Donuts,16
+Countertop Coffee,Coffee Shop,Coffee Shop,16
+Parental Unit Cafe,Café,Café,16
+Mambo Cafe,Café,Café,16
+Jaime's House: Foodjoy,Café,Café,16
+7-Eleven,Convenience Store,Convenience Store,16
+Backlot Coffee,Coffee Shop,Coffee Shop,16
+Starbucks,Coffee Shop,Coffee Shop,16
+Dunkin' Donuts,Donut Shop,Donuts,16
+7-Eleven,Convenience Store,Convenience Store,16
+Java Thai,Thai Restaurant,Thai,16
+Berrista,Café,Café,16
+Carol's Chicago Style Grill,Café,Café,16
+Chicago Coffee House,Coffee Shop,Coffee Shop,16
+Beogard Cafe,Café,Café,16
+Beograd Serbian Cafe & Restaurant,Café,Café,16
+Dunkin' Donuts,Donut Shop,Donuts,16
+Dunkin' Donuts,Donut Shop,Donuts,16
+La Pane Halal Pizza,Café,Café,16
+7-Eleven,Convenience Store,Convenience Store,16
+Albanian Soccer Club,Coffee Shop,Coffee Shop,16
+Coffee Express,Coffee Shop,Coffee Shop,16
+Cafe Urbano,Café,Café,16
+Cafe San Juan,Café,Café,16
+Pomera Bakery,Bakery,Bakery,16
+Ladybug Book Cafe,Café,Café,16
+Tassili,Café,Café,16
+7-Eleven,Convenience Store,Convenience Store,16
+7-Eleven,Convenience Store,Convenience Store,16
+Cuenca's Bakery,Bakery,Bakery,16
+Dunkin' Donuts,Donut Shop,Donuts,16
+Cafe Dret Hermanas,Coffee Shop,Coffee Shop,16
+7-Eleven,Convenience Store,Convenience Store,16
+Michael's Goumet Coffee,Coffee Shop,Coffee Shop,17
+Dunkin Donuts,Donut Shop,Donuts,17
+7-Eleven,Convenience Store,Convenience Store,17
+Dunkin Donuts,Donut Shop,Donuts,17
+La Capannina Coffee,Coffee Shop,Coffee Shop,17
+Don Miguel Caffe & Sandwich Shop,Sandwich Place,Sandwiches,17
+Mama J's,Café,Café,17
+Dunkin Donuts,Donut Shop,Donuts,17
+New Wave Cafe,Café,Café,17
+Argo Tea,Tea Room,Tea Room,17
+Aggie's Coffee Shop,Coffee Shop,Coffee Shop,17
+7-Eleven,Convenience Store,Convenience Store,17
+Dunkin' Donuts,Donut Shop,Donuts,17
+Dunkin Donuts,Donut Shop,Donuts,17
+Eli's Cheesecake Bakery Cafe,Bakery,Bakery,17
+Valentino Club Cafe,Café,Café,18
+7-Eleven,Convenience Store,Convenience Store,18
+Armani Caffè,Café,Café,18
+Cafe 03,Coffee Shop,Coffee Shop,18
+Coffee and Tea Exchange,Coffee Shop,Coffee Shop,19
+Dunkin' Donuts,Donut Shop,Donuts,19
+Starlight Cafe,Cuban Restaurant,Cuban,19
+Tequila Rose Cafe,Café,Café,19
+Starbucks,Coffee Shop,Coffee Shop,19
+Dunkin Donuts,Donut Shop,Donuts,19
+Cafe 787,Café,Café,19
+Dunkin' Donuts,Donut Shop,Donuts,19
+Dunkin' Donuts,Donut Shop,Donuts,19
+Somethin' Sweet Donuts,Donut Shop,Donuts,19
+Dunkin' Donuts,Donut Shop,Donuts,19
+Starbucks,Coffee Shop,Coffee Shop,19
+Elba's Latin Cafe,Café,Café,19
+Dunkin' Donuts,Donut Shop,Donuts,19
+7-Eleven,Convenience Store,Convenience Store,19
+Señor Pan Express,Café,Café,19
+Dunkin' Donuts,Donut Shop,Donuts,19
+Dunkin Donuts,Donut Shop,Donuts,19
+Tuitti Frutti,Coffee Shop,Coffee Shop,19
+7-Eleven,Convenience Store,Convenience Store,19
+Euro Cappucino,Coffee Shop,Coffee Shop,19
+Cafe Tacuba,Coffee Shop,Coffee Shop,19
+Tutti Frutti Coffee Shop,Breakfast Spot,Breakfast,19
+Oliver's grill,Coffee Shop,Coffee Shop,19
+Dunkin' Donuts,Donut Shop,Donuts,19
+Cafe Internet Latino,Café,Café,20
+Classic Vending,Coffee Shop,Coffee Shop,20
+Dunkin Donuts,Donut Shop,Donuts,20
+armitage courtyard cafe,Café,Café,20
+Stewarts Private Blend Foods,Coffee Shop,Coffee Shop,20
+Cafe Organico,Café,Café,20
+Brew Brew Coffee and Tea,Coffee Shop,Coffee Shop,21
+Dunkin' Donuts,Donut Shop,Donuts,21
+Ruben's Cafe,Café,Café,21
+La Plaza 24,Café,Café,21
+7-Eleven,Convenience Store,Convenience Store,21
+Metropolis Coffee Rockwell Roasting Plant,Coffee Shop,Coffee Shop,21
+NEAT! bar & cafe,Café,Café,21
+Dunkin' Donuts,Donut Shop,Donuts,21
+Dunkin' Donuts,Donut Shop,Donuts,21
+Cj's Cafe,Coffee Shop,Coffee Shop,21
+7-Eleven,Convenience Store,Convenience Store,21
+Dunkin' Donuts,Donut Shop,Donuts,21
+Milano Cafe,Bar,Bar,21
+Gypsy & Fig: Party Edition,Café,Café,21
+Starbucks,Coffee Shop,Coffee Shop,21
+7-Eleven,Convenience Store,Convenience Store,21
+Fresh Grounds,Coffee Shop,Coffee Shop,21
+Ipsento 606,Coffee Shop,Coffee Shop,22
+Xuan Tea,Tea Room,Tea Room,22
+Flipside Cafe,Café,Café,22
+Starbucks,Coffee Shop,Coffee Shop,22
+Dunkin' Donuts,Donut Shop,Donuts,22
+Residential Design Lab,Coffee Shop,Coffee Shop,22
+Tea Essence,Tea Room,Tea Room,22
+Hero Coffee Bar,Coffee Shop,Coffee Shop,22
+Xocoatl,Café,Café,22
+Xocoatl Churros,Dessert Shop,Desserts,22
+Ipsento Coffee Lab,Coffee Shop,Coffee Shop,22
+Damn Fine Coffee Bar,Coffee Shop,Coffee Shop,22
+7-Eleven,Convenience Store,Convenience Store,22
+Starbucks,Coffee Shop,Coffee Shop,22
+Perk-u-Later,Coffee Shop,Coffee Shop,22
+The Map Room,Bar,Bar,22
+Dunkin' Donuts,Donut Shop,Donuts,22
+7-Eleven,Convenience Store,Convenience Store,22
+7-Eleven,Convenience Store,Convenience Store,22
+La Strada Cafe Bar,Café,Café,22
+Red June Cafe,Coffee Shop,Coffee Shop,22
+Ipsento Coffee House,Coffee Shop,Coffee Shop,22
+Coffee Ambassadors,Coffee Shop,Coffee Shop,22
+Little Beans Cafe,Playground,Playground,22
+Coffee Bean and Tea Leaf,Coffee Shop,Coffee Shop,22
+Dunkin' Donuts,Donut Shop,Donuts,22
+Think Cafe,Coffee Shop,Coffee Shop,22
+Superior Coffee,Coffee Shop,Coffee Shop,22
+Cafe Mustache,Coffee Shop,Coffee Shop,22
+Limitless Coffee,Coffee Shop,Coffee Shop,22
+Hotti Biscotti Cafe,Coffee Shop,Coffee Shop,22
+Click On Cafe,Coffee Shop,Coffee Shop,22
+Jimmy Beans,Coffee Shop,Coffee Shop,22
+HalfWit Coffee Roasters,Coffee Shop,Coffee Shop,22
+Gaslight Coffee Roasters,Coffee Shop,Coffee Shop,22
+Café Bella,Café,Café,22
+Dunkin' Donuts,Donut Shop,Donuts,22
+Cherubs Cafe,Sandwich Place,Sandwiches,22
+7-Eleven,Convenience Store,Convenience Store,22
+Estereo,Lounge,Lounge,22
+Capitol Car Wash,Coffee Shop,Coffee Shop,22
+Lula Café,Café,Café,22
+New Wave Coffee,Coffee Shop,Coffee Shop,22
+Starbucks,Coffee Shop,Coffee Shop,22
+Passion House Coffee Roasters,Coffee Shop,Coffee Shop,22
+Starbucks,Coffee Shop,Coffee Shop,22
+Intelligentsia Coffee Bar,Coffee Shop,Coffee Shop,22
+Same Day Cafe,Café,Café,22
+Cafe Con Leche,Latin American Restaurant,Latin American,22
+Panera Bread,Bakery,Bakery,22
+Illy Cafe North America,Coffee Shop,Coffee Shop,22
+Chiya Chai,Café,Café,22
+Buzz: Coffee Roaster And Bakery,Coffee Shop,Coffee Shop,22
+Arbor,Café,Café,22
+Dunkin' Donuts,Donut Shop,Donuts,22
+Cornerstone Cafe,Breakfast Spot,Breakfast,22
+Cellar Door Provisions,Café,Café,22
+Damron Corporation,Tea Room,Tea Room,23
+The Fruit Bowl,Café,Café,23
+Chaho @Central World,Café,Café,23
+Coffeol,Café,Café,23
+Dunkin Donuts,Donut Shop,Donuts,23
+Dunkin' Donuts,Donut Shop,Donuts,23
+Dunkin Donuts,Donut Shop,Donuts,23
+Dunkin Donuts,Donut Shop,Donuts,23
+Dunkin' Donuts,Donut Shop,Donuts,23
+Blend Cafe and Coffee Bar,Coffee Shop,Coffee Shop,24
+Big Delicious Planet Catering & Canteen,Café,Café,24
+Xando Cosi Coffee Bar,Coffee Shop,Coffee Shop,24
+Upton's Breakroom,Vegetarian / Vegan Restaurant,Vegetarian / Vegan,24
+Dunkin' Donuts,Donut Shop,Donuts,24
+Sip Coffee House,Coffee Shop,Coffee Shop,24
+Gaudi Café,Café,Café,24
+Starbucks,Coffee Shop,Coffee Shop,24
+7-Eleven,Convenience Store,Convenience Store,24
+Starbucks,Coffee Shop,Coffee Shop,24
+Iguana Café,Café,Café,24
+Dark Matter Coffee,Coffee Shop,Coffee Shop,24
+Dark Matter Coffee (Star Lounge Coffee Bar),Coffee Shop,Coffee Shop,24
+Tryzub Ukrainian Kitchen,Eastern European Restaurant,Eastern European,24
+Shokolat,Café,Café,24
+Shokolad Pastry & Cafe,Ukrainian Restaurant,Ukrainian,24
+Sunrise Cafe,Breakfast Spot,Breakfast,24
+Atomix,Coffee Shop,Coffee Shop,24
+Awake Cafe,Café,Café,24
+Asado Coffee Roasters,Coffee Shop,Coffee Shop,24
+Hero Coffee Bar,Coffee Shop,Coffee Shop,24
+Bialy Cafe and Lounge,Coffee Shop,Coffee Shop,24
+Mercury Cafe,Coffee Shop,Coffee Shop,24
+Standing Passengers Coffeehouse,Café,Café,24
+Dunkin' Donuts,Donut Shop,Donuts,24
+Big Shoulders Coffee,Coffee Shop,Coffee Shop,24
+Cafe Blue,Coffee Shop,Coffee Shop,24
+Dunkin' Donuts,Donut Shop,Donuts,24
+Muse Cafe,Coffee Shop,Coffee Shop,24
+Savor the flavor,Coffee Shop,Coffee Shop,24
+Francesca's Cafe,Coffee Shop,Coffee Shop,24
+Zoriana Candy Store,Coffee Shop,Coffee Shop,24
+Zoriana Candy Store,Coffee Shop,Coffee Shop,24
+Cafe Zori,Café,Café,24
+Cafe Ballou,Coffee Shop,Coffee Shop,24
+Gulf/Dunkin Donuts,Coffee Shop,Coffee Shop,24
+C.C. Ferns,Coffee Shop,Coffee Shop,24
+Filichia's,Sandwich Place,Sandwiches,24
+Dollop Bakeshop,Café,Café,24
+Flying Saucer,Breakfast Spot,Breakfast,24
+Lovely: A Bake Shop,Bakery,Bakery,24
+Starbucks,Coffee Shop,Coffee Shop,24
+Dunkin' Donuts,Donut Shop,Donuts,24
+Tropikava Kafe,Café,Café,24
+Café Colao,Caribbean Restaurant,Caribbean,24
+Janik's Cafe,Café,Café,24
+Dunkin' Donuts,Donut Shop,Donuts,24
+Purple Llama Coffee & Records,Coffee Shop,Coffee Shop,24
+Caffe Gelato,Bakery,Bakery,24
+Milk & Honey Café,Café,Café,24
+Caffe Streets,Coffee Shop,Coffee Shop,24
+Alliance Bakery,Bakery,Bakery,24
+Intelligentsia Coffee Wicker Park Coffeebar,Coffee Shop,Coffee Shop,24
+Eleni's Cafe,Café,Café,24
+Cafe Lexus,Café,Café,24
+Hot Shots Cafe,Café,Café,24
+liuzza,Café,Café,24
+Dunkin' Donuts,Donut Shop,Donuts,24
+Boathouse Cafe,Café,Café,24
+Cafe Umbria,Café,Café,24
+Starbucks,Coffee Shop,Coffee Shop,24
+Filter,Coffee Shop,Coffee Shop,24
+7-Eleven,Convenience Store,Convenience Store,24
+Caldero Restaurant,Caribbean Restaurant,Caribbean,24
+7-Eleven,Convenience Store,Convenience Store,24
+The Wormhole Coffee,Coffee Shop,Coffee Shop,24
+Volumes Bookcafe,Bookstore,Bookstore,24
+Isla De Café,Café,Café,24
+La Colombe Torrefaction,Coffee Shop,Coffee Shop,24
+Ready Coffee,Coffee Shop,Coffee Shop,24
+Brü Chicago,Café,Café,24
+Stan's Donuts & Coffee,Donut Shop,Donuts,24
+J R Cafeteria,Coffee Shop,Coffee Shop,24
+Cafe Bustelo Pop-Up,Coffee Shop,Coffee Shop,24
+Cup & Spoon,Café,Café,24
+Starbucks,Coffee Shop,Coffee Shop,24
+Oak Mill Bakery and Cafe,Bakery,Bakery,24
+Dunkin Donuts,Donut Shop,Donuts,24
+Red Beard Coffee Traders,Coffee Shop,Coffee Shop,24
+Gallery Cafe,Coffee Shop,Coffee Shop,24
+Fairgrounds Coffee and Tea,Coffee Shop,Coffee Shop,24
+7-Eleven,Convenience Store,Convenience Store,24
+Dunkin Donuts,Donut Shop,Donuts,24
+Goddess and Grocer,Gourmet Shop,Gourmet,24
+DAVIDsTEA,Tea Room,Tea Room,24
+Newlife Cafe,Café,Café,24
+New Life Cafe,Café,Café,24
+Cafe Creme,Café,Café,24
+Donut Delight,Coffee Shop,Coffee Shop,24
+Werewolf Coffee Bar,Coffee Shop,Coffee Shop,24
+Caramel Cafe,Café,Café,25
+Happiness Is Cafe,Café,Café,25
+Cream and Sugar Cafe,Coffee Shop,Coffee Shop,25
+Chado's Late Cafe,Café,Café,25
+Chado's Coffee House,Coffee Shop,Coffee Shop,25
+Mosaic Cafe,Café,Café,25
+Dunkin' Donuts,Donut Shop,Donuts,25
+Dunkin' Donuts,Donut Shop,Donuts,25
+Firecakes,Donut Shop,Donuts,25
+Dunkin' Donuts,Donut Shop,Donuts,25
+Gilley's Cafe,Café,Café,25
+Westside Coffee Express,Coffee Shop,Coffee Shop,25
+Dunkin Donuts,Donut Shop,Donuts,25
+elbrus,Café,Café,25
+Starbucks,Coffee Shop,Coffee Shop,25
+7-Eleven,Convenience Store,Convenience Store,25
+Dunkin Donuts,Donut Shop,Donuts,25
+Light Café,Café,Café,26
+Petro's Restaurant & Bakery,Coffee Shop,Coffee Shop,26
+Westside Coffee Express,Coffee Shop,Coffee Shop,26
+dunkin dounuts,Donut Shop,Donuts,27
+Candy Store,Café,Café,27
+The Bridge Cafe,Café,Café,27
+Freedom Coffee Roasters,Coffee Shop,Coffee Shop,27
+Starbucks Coffee,Coffee Shop,Coffee Shop,28
+Coffee Unlimited,Coffee Shop,Coffee Shop,28
+7-Eleven,Convenience Store,Convenience Store,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Student Center East Dunkin' Doughnuts,Coffee Shop,Coffee Shop,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Peet's Coffee & Tea,Coffee Shop,Coffee Shop,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Chicago Hope Cafe,Café,Café,28
+Village Cafe,Café,Café,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Starbucks in Dominic's,Coffee Shop,Coffee Shop,28
+Village Cafe I,Café,Café,28
+Leona,Café,Café,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Panera Bread,Bakery,Bakery,28
+Tropical Smoothie Cafe,Café,Café,28
+Cafe Cedalia,Café,Café,28
+Takoz,Coffee Shop,Coffee Shop,28
+Netccino,Coffee Shop,Coffee Shop,28
+Starbucks Cart,Coffee Shop,Coffee Shop,28
+Stax Cafe,Breakfast Spot,Breakfast,28
+Scafuri Bakery,Bakery,Bakery,28
+7-Eleven,Convenience Store,Convenience Store,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Skinny Piggy Bakery,Bakery,Bakery,28
+The Coffee Alley,Coffee Shop,Coffee Shop,28
+Demitasse,Café,Café,28
+Pomme,Café,Café,28
+Faux Bux,Coffee Shop,Coffee Shop,28
+Western Avenue Shrimp House,Coffee Shop,Coffee Shop,28
+West Cafe,Café,Café,28
+Patriot Brew,Café,Café,28
+Cafe Descartes,Café,Café,28
+Tropical Smoothie Cafe,Café,Café,28
+Northern Trust - Julius Meinl Coffee Kiosk,Coffee Shop,Coffee Shop,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Cafe Frida,Coffee Shop,Coffee Shop,28
+Cafe Descartes,Café,Café,28
+Argo Tea,Tea Room,Tea Room,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Bull Market Coffee Bar,Coffee Shop,Coffee Shop,28
+Awake Cafe,Coffee Shop,Coffee Shop,28
+Au Bon Pain- BSB,Café,Café,28
+Intelligentsia,Coffee Shop,Coffee Shop,28
+In A Rush,Coffee Shop,Coffee Shop,28
+Cafe 7,Café,Café,28
+Sunny's At Holiday Inn,American Restaurant,American,28
+Greyhound Cafe & Shop,Café,Café,28
+The Eastman Egg Company Food Truck,Food Truck,Food Truck,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Cafe Corner,Café,Café,28
+7-Eleven,Convenience Store,Convenience Store,28
+Bow Truss Coffee Roasters,Coffee Shop,Coffee Shop,28
+Kingsbaker Cafe,Café,Café,28
+Ground Up,Coffee Shop,Coffee Shop,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Meli Cafe & Juice Bar,Breakfast Spot,Breakfast,28
+7-Eleven,Convenience Store,Convenience Store,28
+M2 Cafe,Café,Café,28
+Dunkin Donuts,Donut Shop,Donuts,28
+Meddle Coffee Bar,Coffee Shop,Coffee Shop,28
+Corner Bakery,Sandwich Place,Sandwiches,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Pret A Manger,Café,Café,28
+Alpha & Omega Coffee,Coffee Shop,Coffee Shop,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+7-Eleven,Convenience Store,Convenience Store,28
+Peet's Coffee & Tea,Coffee Shop,Coffee Shop,28
+Corner Bakery (Union Station),Café,Café,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Morgan Street Cafe,Café,Café,28
+Corner Bakery Cafe,Café,Café,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Specialty’s Café & Bakery,Café,Café,28
+7-Eleven,Convenience Store,Convenience Store,28
+Vero's Caffe & Gelato,Café,Café,28
+Rivers Restaurant,American Restaurant,American,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Nohea Cafe,Café,Café,28
+Chicago's Legal Cafe,Coffee Shop,Coffee Shop,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Groundswell Coffee Roasters,Coffee Shop,Coffee Shop,28
+Au Bon Pain,Café,Café,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Corner Bakery,Sandwich Place,Sandwiches,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Gracie's Cafe,Café,Café,28
+Cafe 25 at Boeing,Café,Café,28
+Café Sprout,Coffee Shop,Coffee Shop,28
+Allegro Coffee Company,Coffee Shop,Coffee Shop,28
+Cafe Baci catering,Café,Café,28
+Dunkin Donuts,Donut Shop,Donuts,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Cafe Baci,Café,Café,28
+Dunkin Donuts,Donut Shop,Donuts,28
+Rosie's Cafe & Catering,Café,Café,28
+7-Eleven,Convenience Store,Convenience Store,28
+Sawada Coffee,Coffee Shop,Coffee Shop,28
+The Allis,Café,Café,28
+Polpetti,Italian Restaurant,Italian,28
+Le Cafe Du Marche,Café,Café,28
+The Doughnut Vault,Donut Shop,Donuts,28
+La Colombe Torrefaction,Coffee Shop,Coffee Shop,28
+Beavers Coffee+Donuts,Donut Shop,Donuts,28
+Flip Crepes,Creperie,Creperie,28
+Filicori Zecchini,Coffee Shop,Coffee Shop,28
+Haymarket Cafe,Café,Café,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Bombobar,Dessert Shop,Desserts,28
+Stan’s Donuts,Donut Shop,Donuts,28
+Sparrow Coffee Roastery,Coffee Shop,Coffee Shop,28
+Do-Rite Donuts and Chicken,Donut Shop,Donuts,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Dunkin' Donuts,Donut Shop,Donuts,28
+Sparrow Coffee Roastery,Coffee Shop,Coffee Shop,28
+7-Eleven,Convenience Store,Convenience Store,28
+Dunkin Donuts,Donut Shop,Donuts,28
+Chicagoland Beverage Company,Coffee Shop,Coffee Shop,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Passion House Coffee Roasters,Coffee Shop,Coffee Shop,28
+Jupiter Outpost,Café,Café,28
+Metric Coffee,Coffee Shop,Coffee Shop,28
+Glazed and Infused,Donut Shop,Donuts,28
+Intelligentsia Roasting Works,Office,Office,28
+Barista,Coffee Shop,Coffee Shop,28
+Crop To Cup,Café,Café,28
+Stumptown Coffee Roasters,Coffee Shop,Coffee Shop,28
+Starbucks,Coffee Shop,Coffee Shop,28
+Green Tomato Cafe,Café,Café,29
+Mount Sinai Hospital Steinfield Gourmet Dining Center,Café,Café,29
+Dunkin' Donuts,Donut Shop,Donuts,30
+Macrochasa Cafe,Café,Café,30
+Ace Coffee Bar,Coffee Shop,Coffee Shop,30
+kafecito,Café,Café,30
+La Catedral Cafe & Restaurant,Restaurant,Restaurant,30
+Dunkin Donuts,Donut Shop,Donuts,30
+Sip 22,Coffee Shop,Coffee Shop,30
+Cafe Duvall,Café,Café,31
+Starbucks Coffee,Coffee Shop,Coffee Shop,31
+Dunkin' Donuts,Donut Shop,Donuts,31
+Starbucks,Coffee Shop,Coffee Shop,31
+Dunkin Donuts,Coffee Shop,Coffee Shop,31
+Workwell Food and Beverage Co.,Coffee Shop,Coffee Shop,31
+TrueBrew Outfitters,Coffee Shop,Coffee Shop,31
+Cafe Lacuna,Café,Café,31
+La Parada en Pilsen,Coffee Shop,Coffee Shop,31
+Balseros House Cuban Cafe,Coffee Shop,Coffee Shop,31
+Efebos Internet Cafe',Café,Café,31
+'L' Cafecito Jumping Bean,Coffee Shop,Coffee Shop,31
+A-Ness Cafe,Coffee Shop,Coffee Shop,31
+Lavazza,Café,Café,31
+Tamaulipas,Coffee Shop,Coffee Shop,31
+Au Bon Pain,Sandwich Place,Sandwiches,31
+Dunkin Donuts,Donut Shop,Donuts,31
+Magnolia Spice Teas,Coffee Shop,Coffee Shop,31
+Brew Brew Coffee and Tea,Coffee Shop,Coffee Shop,31
+Cafe Monsivais,Café,Café,31
+Riverside Deli,Coffee Shop,Coffee Shop,31
+Bow Truss,Coffee Shop,Coffee Shop,31
+Cake Gallery,Café,Café,31
+Juice House,Juice Bar,Juice Bar,31
+Nuevo Leon Bakery,Bakery,Bakery,31
+Nitecap Coffee Bar,Coffee Shop,Coffee Shop,31
+Cafe Jumping Bean,Coffee Shop,Coffee Shop,31
+Cà Phê Dá,Coffee Shop,Coffee Shop,31
+Chela Joe's Cafe,Coffee Shop,Coffee Shop,31
+Cafe La Catrina,Café,Café,31
+Cafe Sol,Coffee Shop,Coffee Shop,31
+Savvy Gourmets Underground Dinner,Café,Café,31
+Kristoffer's Café & Bakery,Bakery,Bakery,31
+Bics Hardware Cafe,Coffee Shop,Coffee Shop,31
+Decolores galeria y sabores,Café,Café,31
+X.A.P Solutions,Coffee Shop,Coffee Shop,31
+Junior's Sports Longue,Coffee Shop,Coffee Shop,31
+Stan's Donuts & Coffee,Coffee Shop,Coffee Shop,32
+Dunkin Donuts at Roosevelt station,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Bridgeport Coffee Company,Coffee Shop,Coffee Shop,32
+41 cafe,Café,Café,32
+7-Eleven,Convenience Store,Convenience Store,32
+Peet's Coffee & Tea,Coffee Shop,Coffee Shop,32
+Cafe Press,Coffee Shop,Coffee Shop,32
+Snax,Café,Café,32
+The Pavilion,American Restaurant,American,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Hokin Gallery and Cafe,Café,Café,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Underground Café - The 600 Building (ACC),Café,Café,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+7-Eleven,Convenience Store,Convenience Store,32
+Starbucks,Coffee Shop,Coffee Shop,32
+7-Eleven,Convenience Store,Convenience Store,32
+Panera Bread,Bakery,Bakery,32
+Hero Coffee Bar,Coffee Shop,Coffee Shop,32
+Cafecito,Cuban Restaurant,Cuban,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Halsted Street Deli,American Restaurant,American,32
+Artist's Cafe,Café,Café,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Truebrew,Coffee Shop,Coffee Shop,32
+Fountain Cafe,Café,Café,32
+Dunkin Donuts,Donut Shop,Donuts,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Dollop Coffee & Tea,Coffee Shop,Coffee Shop,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+7-Eleven,Convenience Store,Convenience Store,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Dunkin Donuts,Donut Shop,Donuts,32
+Starbucks,Coffee Shop,Coffee Shop,32
+5Th Floor Dessert Bar @ Ulc,Tea Room,Tea Room,32
+Starbucks,Coffee Shop,Coffee Shop,32
+DePaul University Loop Campus Bookstore,College Bookstore,College Bookstore,32
+King Cafe Gourmet & Go,Coffee Shop,Coffee Shop,32
+Intelligentsia Coffee,Coffee Shop,Coffee Shop,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Doughnut Vault Van,Food Truck,Food Truck,32
+Washburne Cafe,Café,Café,32
+Dunkin Donuts,Donut Shop,Donuts,32
+Bow Truss Coffee Roasters,Café,Café,32
+Pickwick Coffee Roasting co.,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+7-Eleven,Convenience Store,Convenience Store,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Corner Bakery,Sandwich Place,Sandwiches,32
+Hero Coffee Bar,Coffee Shop,Coffee Shop,32
+kCura Cafè,Café,Café,32
+7-Eleven,Convenience Store,Convenience Store,32
+Mojo Coffee,Coffee Shop,Coffee Shop,32
+Dunkin' Donuts Baskin Robbins,Donut Shop,Donuts,32
+Argo Tea,Tea Room,Tea Room,32
+Joe Muggs,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+17 West At The Berghoff,Café,Café,32
+7-Eleven,Convenience Store,Convenience Store,32
+Starbucks,Coffee Shop,Coffee Shop,32
+7-Eleven,Convenience Store,Convenience Store,32
+Haifa Cafe,Café,Café,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Revival Cafe-Bar RCB,Café,Café,32
+Members' Lounge,Coffee Shop,Coffee Shop,32
+Dunkin' Donuts/Baskin Robbins,Donut Shop,Donuts,32
+Art Institute Museum Cafe,Café,Café,32
+The Garden Cafe,American Restaurant,American,32
+Ge Pa De Caffe,Café,Café,32
+Caffè Moderno,Café,Café,32
+Corner Bakery,Sandwich Place,Sandwiches,32
+Corner Bakery,Sandwich Place,Sandwiches,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Beavers Coffee & Donuts Truck,Food Truck,Food Truck,32
+Cafe 71,Sandwich Place,Sandwiches,32
+Pret A Manger,Sandwich Place,Sandwiches,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Pret A Manger,Sandwich Place,Sandwiches,32
+Corner Bakery,Sandwich Place,Sandwiches,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Grillroom Express,Café,Café,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Specialty’s Café & Bakery,Café,Café,32
+Dollop Coffee & Tea,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Caffè RōM,Coffee Shop,Coffee Shop,32
+Dunkin Donuts - Monroe Blue Line,Coffee Shop,Coffee Shop,32
+Starbucks Chase Tower,Coffee Shop,Coffee Shop,32
+Goddess and The Baker,Café,Café,32
+Au Bon Pain,Sandwich Place,Sandwiches,32
+Argo Tea,Tea Room,Tea Room,32
+Fairgrounds Coffee And Tea,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Northern Trust Cafeteria,Café,Café,32
+Peet's Coffee & Tea,Coffee Shop,Coffee Shop,32
+Caffè Baci,Italian Restaurant,Italian,32
+Dunkin Donuts,Donut Shop,Donuts,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Madison Street Cafe,Café,Café,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Gloria Jean's Coffees,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Panera Bread,Bakery,Bakery,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Peet's Coffee & Tea,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+The Eastman Egg Company,Breakfast Spot,Breakfast,32
+Dollop Coffee & Tea,Coffee Shop,Coffee Shop,32
+Park Cáfe,American Restaurant,American,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Slice,Café,Café,32
+Atwood,New American Restaurant,New American,32
+Alonti Café & Catering,Italian Restaurant,Italian,32
+Toni Patisserie & Café,Bakery,Bakery,32
+Lavazza Espression,Coffee Shop,Coffee Shop,32
+Cosi,Sandwich Place,Sandwiches,32
+Dunkin Donuts,Donut Shop,Donuts,32
+Corner Bakery,Sandwich Place,Sandwiches,32
+Soprafffina,Café,Café,32
+Lavazza,Coffee Shop,Coffee Shop,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Au Bon Pain,Sandwich Place,Sandwiches,32
+Frango Cafe,Café,Café,32
+Millennium Park Coffee Bar,Coffee Shop,Coffee Shop,32
+7-Eleven,Convenience Store,Convenience Store,32
+Magnolia Bakery,Bakery,Bakery,32
+Corner Bakery,Sandwich Place,Sandwiches,32
+Do-Rite Donuts & Coffee,Donut Shop,Donuts,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Randolph Cafe at the Chicago Cultural Center,Coffee Shop,Coffee Shop,32
+Dunkin Donuts,Donut Shop,Donuts,32
+Argo Tea,Tea Room,Tea Room,32
+Intelligentsia Coffee,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Corner Bakery,Sandwich Place,Sandwiches,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+300 Concession Shop,Food & Drink Shop,Food & Drink,32
+HCSC Cafe 300,Café,Café,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Uncommon Cafe,American Restaurant,American,32
+Bonjour Cafe,Café,Café,32
+DAVIDsTEA,Tea Room,Tea Room,32
+Caffè RōM Kiosk at Prudential,Coffee Shop,Coffee Shop,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Green Apple Cafe,Café,Café,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Au Bon Pain,Café,Café,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Green Apple Cafe & Juice Bar,Café,Café,32
+Vero Coffee and Gelato,Coffee Shop,Coffee Shop,32
+Specialty’s Café & Bakery,Café,Café,32
+7-Eleven,Convenience Store,Convenience Store,32
+7-Eleven,Convenience Store,Convenience Store,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Nutella Cafe,Café,Café,32
+Big Shoulders,Coffee Shop,Coffee Shop,32
+Dunkin Donuts,Donut Shop,Donuts,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Cafe 333,Café,Café,32
+Two Zero Three,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Corner Bakery,Sandwich Place,Sandwiches,32
+7-Eleven,Convenience Store,Convenience Store,32
+Starbucks,Coffee Shop,Coffee Shop,32
+7-Eleven,Convenience Store,Convenience Store,32
+Black Coffee Gallery,Coffee Shop,Coffee Shop,32
+Cafe Michelle,Café,Café,32
+Aroma Cafe,Café,Café,32
+Caffe Cafe,Café,Café,32
+Caffè RōM,Coffee Shop,Coffee Shop,32
+Glazed and Infused,Donut Shop,Donuts,32
+Dark Matter Coffee,Coffee Shop,Coffee Shop,32
+Caffé Baci,Café,Café,32
+Starbucks,Coffee Shop,Coffee Shop,32
+7-Eleven,Convenience Store,Convenience Store,32
+Vista Carry Out,Fast Food Restaurant,Fast Food,32
+Dunkin Donuts,Donut Shop,Donuts,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Goddess and the Baker,Coffee Shop,Coffee Shop,32
+Cosi,Sandwich Place,Sandwiches,32
+Dunkin' Donuts,Donut Shop,Donuts,32
+Renaissance Cafe (Renaissance Hotel),Café,Café,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Starbucks,Coffee Shop,Coffee Shop,32
+Corner Bakery,Sandwich Place,Sandwiches,32
+Dublin Dounuts,Coffee Shop,Coffee Shop,33
+Hyatt Employee Cafe,Café,Café,33
+Starbucks,Coffee Shop,Coffee Shop,33
+Starbucks,Coffee Shop,Coffee Shop,33
+Metropolis Coffee cart,Coffee Shop,Coffee Shop,33
+Daily Grind Market,Coffee Shop,Coffee Shop,33
+Sip and Savor South Loop,Coffee Shop,Coffee Shop,33
+La Brea Bakery,Bakery,Bakery,33
+Lakeside Cafe,Café,Café,33
+Chi Bakery and Cafe,Café,Café,33
+The Pantry,Café,Café,33
+Starbucks,Coffee Shop,Coffee Shop,33
+Akhirah's Praline Candy,Candy Store,Candy Store,33
+The Spoke & Bird,Bistro,Bistro,33
+Dunkin' Donuts,Donut Shop,Donuts,33
+Overflow Coffee Bar,Coffee Shop,Coffee Shop,33
+AP's Donuts,Donut Shop,Donuts,33
+Starbucks,Coffee Shop,Coffee Shop,33
+Corner Bakery Cafe,Café,Café,33
+Jims Cafe,Café,Café,33
+Explorer Cafe,Café,Café,33
+Little Branch Cafe South Loop,American Restaurant,American,33
+La Haven Coffee,Café,Café,33
+Museum Campus Cafe,Burger Joint,Burgers,33
+Burnham Harbor -- Dockside Cafe,Café,Café,33
+Café Galileo's,Café,Café,33
+Dunkin' Donuts,Donut Shop,Donuts,33
+Starbucks,Coffee Shop,Coffee Shop,33
+Soundings Cafe,Café,Café,33
+White Sox Bards Room,Café,Café,34
+Red Line Cafe,Coffee Shop,Coffee Shop,34
+Joy Cafe,Coffee Shop,Coffee Shop,34
+Oliver's Cafe,Café,Café,34
+Golden Horse Carriage Bakery & Cafe,Bakery,Bakery,34
+Tasty Place Bakery & Cafe,Chinese Restaurant,Chinese,34
+TenRen's Tea Time,Tea Room,Tea Room,34
+Starbucks,Coffee Shop,Coffee Shop,34
+Saint's Alp Teahouse,Tea Room,Tea Room,34
+Kung Fu Tea,Tea Room,Tea Room,34
+Chatime,Bubble Tea Shop,Bubble Tea,34
+Starbucks,Coffee Shop,Coffee Shop,35
+Dunkin' Donuts,Donut Shop,Donuts,35
+sapa café,Café,Café,35
+P Berry Kafe,Café,Café,35
+Primo's Coffe,Café,Café,35
+Global Grounds,Coffee Shop,Coffee Shop,35
+7-Eleven,Convenience Store,Convenience Store,35
+Pier 31,Café,Café,35
+Dunkin' Donuts,Donut Shop,Donuts,36
+AmazeCafe,Café,Café,36
+Green Line Cafe,Coffee Shop,Coffee Shop,38
+Ain't She Sweet Cafe,Coffee Shop,Coffee Shop,38
+Sip & Savor,Coffee Shop,Coffee Shop,38
+Sip & Savor,Coffee Shop,Coffee Shop,38
+Bridgeport Coffeehouse,Coffee Shop,Coffee Shop,39
+Regents Cup,Café,Café,39
+Lake Shore Cafe,Café,Café,39
+conscious cup,Coffee Shop,Coffee Shop,39
+Zaleski & Horvath MarketCafe,Café,Café,39
+Dunkin' Donuts,Donut Shop,Donuts,39
+Café on the Grove,Café,Café,39
+Dunkin' Donuts,Donut Shop,Donuts,40
+Currency Exchange Café,Café,Café,40
+Skidoe's,Café,Café,40
+Classics Cafe,Café,Café,41
+Common Knowledge Café,Café,Café,41
+Jazzman's Café & Bakery,Café,Café,41
+Tiffin Cafe,Coffee Shop,Coffee Shop,41
+Stuart Cafe,Coffee Shop,Coffee Shop,41
+Everett Kovler Café (Booth School of Business),Café,Café,41
+Cobb Coffee Shop,Coffee Shop,Coffee Shop,41
+Grounds of Being,Café,Café,41
+Au Bon Pain,Sandwich Place,Sandwiches,41
+Starbucks,Coffee Shop,Coffee Shop,41
+Starbucks,Coffee Shop,Coffee Shop,41
+Plein Air Cafe & Eatery,Café,Café,41
+Jazzman's Café & Bakery,Café,Café,41
+Starbucks,Coffee Shop,Coffee Shop,41
+Hallowed Grounds,Coffee Shop,Coffee Shop,41
+Einstein Bros Bagels,Bagel Shop,Bagels,41
+Zaleski & Horvath MarketCafe,Deli / Bodega,Deli / Bodega,41
+The Wolf Den,Café,Café,41
+Café 57,Café,Café,41
+Sanctuary Cafe,Café,Café,41
+Gordon Cafe,Café,Café,41
+Biological Sciences Cafe,Coffee Shop,Coffee Shop,41
+Quantum Café,Café,Café,41
+Ex Libris Café,Café,Café,41
+Jazzman cafe,Café,Café,41
+Smart Museum of Art,Art Museum,Art Museum,41
+Smart Museum Café,Café,Café,41
+Dollop Coffee Co.,Coffee Shop,Coffee Shop,41
+Starbucks,Coffee Shop,Coffee Shop,41
+Bonjour Cafe,Café,Café,41
+Jazzman's Cafe and Bakery,Café,Café,41
+Cafe 4B,Café,Café,41
+Starbucks,Coffee Shop,Coffee Shop,41
+Cafe 53,Café,Café,41
+Sip & Savor,Coffee Shop,Coffee Shop,41
+Ancien Cycles,Bike Shop,Bike Shop,41
+Starbucks,Coffee Shop,Coffee Shop,41
+Dunkin' Donuts,Donut Shop,Donuts,41
+Harper Theater,Movie Theater,Movie Theater,41
+Allegro Coffee Company,Coffee Shop,Coffee Shop,41
+Sinbads,Coffee Shop,Coffee Shop,42
+Living Room Café,Café,Café,42
+Robust Coffee Lounge,Coffee Shop,Coffee Shop,42
+Build Coffee,Coffee Shop,Coffee Shop,42
+Greenline Coffee,Coffee Shop,Coffee Shop,42
+Law School Cafe,College Cafeteria,Cafeteria,42
+Harris School Cafe,Coffee Shop,Coffee Shop,42
+Café Logan,Café,Café,42
+Press Building Cafe,Coffee Shop,Coffee Shop,42
+Plum Cafe at Chicago Press Building,Café,Café,42
+Starbucks 71st & Stony Islamd,Coffee Shop,Coffee Shop,43
+Ms Sis Place,Coffee Shop,Coffee Shop,43
+Mother Inlaw's Cafe,Café,Café,43
+Chef Sara's Cafe,Café,Café,43
+My Soul Cafe,Coffee Shop,Coffee Shop,43
+Starbucks,Coffee Shop,Coffee Shop,43
+Dunkin' Donuts,Donut Shop,Donuts,43
+orland square mall starbucks,Coffee Shop,Coffee Shop,44
+Dunkin' Donuts,Donut Shop,Donuts,44
+Starbucks,Coffee Shop,Coffee Shop,44
+Dunkin' Donuts,Donut Shop,Donuts,44
+Mather's More than a Café,Café,Café,44
+Dat Donut,Donut Shop,Donuts,44
+B T Soul Cafe,Coffee Shop,Coffee Shop,44
+D & M Cafe,Café,Café,44
+Dunkin' Donuts,Donut Shop,Donuts,44
+Cafe Say,Café,Café,45
+Dunkin Donuts / Baskin Robbins,Donut Shop,Donuts,46
+Cafe 35,Café,Café,47
+Dunkin Donuts,Donut Shop,Donuts,48
+Sizzlin' Grille Café,Café,Café,48
+Starbucks Coffee,Coffee Shop,Coffee Shop,49
+Old Fashioned Donuts,Donut Shop,Donuts,49
+Dunkin' Donuts,Donut Shop,Donuts,49
+Dunkin Donuts / Baskin Robbins,Donut Shop,Donuts,49
+Dunkin Donuts,Donut Shop,Donuts,49
+Dat Donut,Donut Shop,Donuts,49
+Pullman Café,Café,Café,50
+Pretty Donkey Coffee,Coffee Shop,Coffee Shop,51
+7-Eleven,Convenience Store,Convenience Store,52
+Dunkin' Donuts,Donut Shop,Donuts,53
+Coffee Pot,Coffee Shop,Coffee Shop,53
+dunkin doughnut,Coffee Shop,Coffee Shop,53
+Starbucks,Coffee Shop,Coffee Shop,54
+Saras Services,Coffee Shop,Coffee Shop,55
+lotus cafe,Café,Café,55
+Hungry Barn,Café,Café,56
+Dunkin Donuts,Donut Shop,Donuts,56
+Dunkin Donuts,Donut Shop,Donuts,56
+Jetbox / Dunkin Donuts,Fast Food Restaurant,Fast Food,56
+Cafe Espresso,Café,Café,56
+Baskin-Robbins,Ice Cream Shop,Ice Cream,56
+Dunkin' Donuts,Donut Shop,Donuts,56
+The Market,Café,Café,56
+Southwest Terminal Dunkin Donuts Express,Donut Shop,Donuts,56
+7-Eleven,Convenience Store,Convenience Store,56
+Weber's Bakery,Bakery,Bakery,56
+Peaches & Pears Restaurant,Eastern European Restaurant,Eastern European,56
+Dunkin Donuts,Donut Shop,Donuts,56
+Flamingo Cafe,Café,Café,56
+7-Eleven,Convenience Store,Convenience Store,56
+European Cafe,Coffee Shop,Coffee Shop,56
+Cafe Two07,Café,Café,56
+Cafe Natchez,Café,Café,56
+Starbucks,Coffee Shop,Coffee Shop,56
+Dunkin' Donuts,Donut Shop,Donuts,56
+Starbucks,Coffee Shop,Coffee Shop,57
+Dunkin' Donuts,Donut Shop,Donuts,57
+Starbucks Coffee,Coffee Shop,Coffee Shop,57
+Dunkin Donuts,Donut Shop,Donuts,58
+Cafe El Meson,Café,Café,58
+Dunkin' Donuts,Donut Shop,Donuts,58
+D'Nuez,Café,Café,58
+Dunkin' Donuts,Donut Shop,Donuts,58
+Starbucks Coffee,Coffee Shop,Coffee Shop,59
+Dunkin' Donuts,Donut Shop,Donuts,59
+Jazzy Bean Café,Café,Café,59
+Jazz Bean,Coffee Shop,Coffee Shop,59
+Brigdeport,Coffee Shop,Coffee Shop,59
+Dunkin Donuts,Donut Shop,Donuts,59
+Vero,Café,Café,59
+Starbucks,Coffee Shop,Coffee Shop,59
+Rolling Donuts & Coffee,Donut Shop,Donuts,59
+Dunkin Donuts,Donut Shop,Donuts,60
+McD Gardens,Donut Shop,Donuts,60
+West Egg Cafe,Café,Café,60
+Zhou B Cafe,Café,Café,60
+Enoch's Doughnuts Pop-Up Shop,Donut Shop,Donuts,60
+Polo Cafe,Breakfast Spot,Breakfast,60
+Nana,Café,Café,60
+Jackalope Coffee & Tea,Coffee Shop,Coffee Shop,60
+Bridgeport Yogurt & Café,Café,Café,60
+Dunkin Donuts,Donut Shop,Donuts,60
+Bridgeport Coffee Company,Coffee Shop,Coffee Shop,60
+J Smile 51 Cafe,Café,Café,60
+Pilsen Cafe,Café,Café,60
+Dunkin Donuts,Donut Shop,Donuts,60
+Starbucks,Coffee Shop,Coffee Shop,61
+Sputnik Coffee Company,Coffee Shop,Coffee Shop,61
+Starbucks,Coffee Shop,Coffee Shop,61
+Coffee Break,Coffee Shop,Coffee Shop,61
+Back Of The Yards Coffehouse & Roastery,Coffee Shop,Coffee Shop,61
+Dunkin Donuts,Donut Shop,Donuts,61
+Dunkin Donuts,Donut Shop,Donuts,61
+7-Eleven,Convenience Store,Convenience Store,62
+Cafezazzo,Café,Café,62
+Dunkin Donuts,Donut Shop,Donuts,62
+Jxj Cyber Cafe,Coffee Shop,Coffee Shop,62
+Paleteria Sabor Michoacan,Café,Café,63
+Diamond Don's,Coffee Shop,Coffee Shop,63
+Stella's Lounge,Coffee Shop,Coffee Shop,63
+Dunkin' Donuts,Donut Shop,Donuts,63
+Las Brisas Del Mar,Coffee Shop,Coffee Shop,63
+Dunkin' Donuts,Donut Shop,Donuts,64
+7-Eleven,Convenience Store,Convenience Store,64
+7-Eleven,Convenience Store,Convenience Store,64
+Dunkin' Donuts,Donut Shop,Donuts,65
+El meson,Café,Café,65
+7-Eleven,Convenience Store,Convenience Store,65
+chill with us yogurt cafe,Café,Café,65
+Dunkin Dounuts,Coffee Shop,Coffee Shop,66
+Dunkin' Donuts,Donut Shop,Donuts,66
+Dunkin' Donuts,Donut Shop,Donuts,66
+7-Eleven,Convenience Store,Convenience Store,66
+Dunkin' Donuts,Donut Shop,Donuts,66
+Dunkin Donuts,Donut Shop,Donuts,66
+Dunkin' Donuts,Donut Shop,Donuts,67
+Dunkin Donuts,Donut Shop,Donuts,67
+Istria Cafe,Coffee Shop,Coffee Shop,67
+Kafe Tao Chi,Café,Café,68
+Currency Exchange Cafe,Café,Café,68
+Kusanya Cafe,Café,Café,68
+Starbucks,Coffee Shop,Coffee Shop,68
+Dunkin Donuts,Donut Shop,Donuts,68
+Dunkin Donuts,Donut Shop,Donuts,68
+Dunkin' Donuts,Donut Shop,Donuts,68
+Chicago Wingz Around the World,Café,Café,68
+Dream Cafe Grille,Café,Café,68
+Dunkin' Donuts,Donut Shop,Donuts,69
+Spoon's Coffee Boutique,Coffee Shop,Coffee Shop,69
+Dunkin' Donuts,Donut Shop,Donuts,70
+Stan's Coffee And Donuts,Coffee Shop,Coffee Shop,70
+Starbucks,Coffee Shop,Coffee Shop,70
+Dunkin' Donuts,Donut Shop,Donuts,70
+Dunkin' Donuts,Donut Shop,Donuts,70
+Dunkin Donuts,Donut Shop,Donuts,70
+Dunkin' Donuts,Donut Shop,Donuts,70
+food center,Donut Shop,Donuts,70
+Dunkin Donuts,Donut Shop,Donuts,71
+Corner Cafe,Café,Café,71
+Dunkin' Donuts,Donut Shop,Donuts,71
+Tasty B's Juice Bar and Grill,Café,Café,71
+Cafe New Day,Café,Café,71
+Beverly Bakery Café & Coffee Roasters,Café,Café,72
+Dunkin' Donuts,Donut Shop,Donuts,72
+7-Eleven,Convenience Store,Convenience Store,72
+Starbucks,Coffee Shop,Coffee Shop,72
+A lil something cool,Coffee Shop,Coffee Shop,72
+Sip & Savor,Coffee Shop,Coffee Shop,72
+B Sides Beverly,Coffee Shop,Coffee Shop,72
+Markland Hubbard Gourmet Provisions,Coffee Shop,Coffee Shop,72
+Cafe Luna,Café,Café,72
+Hardboiled Coffee Company,Coffee Shop,Coffee Shop,72
+Bridgeport Coffee Company,Coffee Shop,Coffee Shop,72
+Dunkin' Donuts,Donut Shop,Donuts,73
+Dunkin' Donuts,Donut Shop,Donuts,73
+Poppin Dough,Donut Shop,Donuts,73
+Dunkin,Donut Shop,Donuts,73
+Mad Hatter 420 Tea Party,Tea Room,Tea Room,74
+Blue Oasis Cafe,Café,Café,74
+7-Eleven,Convenience Store,Convenience Store,74
+Dunkin Donuts,Donut Shop,Donuts,74
+Starbucks,Coffee Shop,Coffee Shop,74
+Sxu Coffee Cats,Café,Café,74
+Starbucks @ Saint Xavier University,Coffee Shop,Coffee Shop,74
+Starbucks,Coffee Shop,Coffee Shop,75
+Java Time,Coffee Shop,Coffee Shop,75
+Java Express,Coffee Shop,Coffee Shop,75
+Ellies Cafe,Café,Café,75
+Starbucks,Coffee Shop,Coffee Shop,76
+Cafe Cortile,Café,Café,76
+La Tapenade Mediterranean Cafe- O'Hare International Airport,Mediterranean Restaurant,Mediterranean,76
+Starbucks,Coffee Shop,Coffee Shop,76
+La Tapenade Mediterranean Café,Mediterranean Restaurant,Mediterranean,76
+Sham Hotel,Café,Café,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Brioche Dorée,Café,Café,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Brioche Dorée,Café,Café,76
+Kôfē,Coffee Shop,Coffee Shop,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Starbucks H / K Connector (near H6),Coffee Shop,Coffee Shop,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Graystone Coffee,Coffee Shop,Coffee Shop,76
+Metropolis Coffee,Coffee Shop,Coffee Shop,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Dunkin Donuts,Donut Shop,Donuts,76
+Argo Tea,Tea Room,Tea Room,76
+Brioche Dorée,Café,Café,76
+Argo Tea,Tea Room,Tea Room,76
+Starbucks,Coffee Shop,Coffee Shop,76
+7-Eleven,Convenience Store,Convenience Store,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Caffe Mercato,Restaurant,Restaurant,76
+Argo Tea,Tea Room,Tea Room,76
+Starbucks,Coffee Shop,Coffee Shop,76
+The RJ Cafe!,Diner,Diner,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Cafe Zoot,Restaurant,Restaurant,76
+Brioche Dorée,Café,Café,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Stefani's Tuscany Cafe,Italian Restaurant,Italian,76
+Plaza Cafe,Café,Café,76
+Starbucks,Coffee Shop,Coffee Shop,76
+Michael's on Main Café,Café,Café,76
+starbucks kiosk,Coffee Shop,Coffee Shop,76
+Intelligentsia,Coffee Shop,Coffee Shop,76
+7-Eleven,Convenience Store,Convenience Store,77
+vero Coffee and Gelato,Coffee Shop,Coffee Shop,77
+Pars Persian Store,Grocery Store,Grocery Store,77
+Chicago Grind,Coffee Shop,Coffee Shop,77
+Kitchen Sink Café,Coffee Shop,Coffee Shop,77
+Pause Cafe,Coffee Shop,Coffee Shop,77
+Starbucks,Coffee Shop,Coffee Shop,77
+Kopi Café,Café,Café,77
+First Slice Pie Café,Pie Shop,Pie Shop,77
+7-Eleven,Convenience Store,Convenience Store,77
+TrueNorth,Café,Café,77
+Metropolis Roasting Garage,Coffee Shop,Coffee Shop,77
+Starbucks,Coffee Shop,Coffee Shop,77
+Edgewater Beach Cafe,Café,Café,77
+Flourish Bakery Cafe,Coffee Shop,Coffee Shop,77
+Dunkin' Donuts,Donut Shop,Donuts,77
+Zanzibar,Sandwich Place,Sandwiches,77
+Starbucks,Coffee Shop,Coffee Shop,77
+Dunkin' Donuts,Donut Shop,Donuts,77
+The Coffee Studio,Coffee Shop,Coffee Shop,77
+Soul Cafe,Coffee Shop,Coffee Shop,77
+Intellegentsia Coffee,Coffee Shop,Coffee Shop,77
+Nick's Coffee Bar,Coffee Shop,Coffee Shop,77
+Veranda,Café,Café,77
+M Kafe,Café,Café,77
+The Growling Rabbit,Café,Café,77
+Cafe Royale,Food Court,Food Court,77
+Chai,Coffee Shop,Coffee Shop,77
+Dunkin' Donuts,Donut Shop,Donuts,77
+Metropolis Coffee Company,Coffee Shop,Coffee Shop,77
+Waterfront Café,Café,Café,77
+Kafe,Coffee Shop,Coffee Shop,77
+Dunkin' Donuts,Donut Shop,Donuts,77
+Pressure Billiards & Cafe,Pool Hall,Billiards,77
+Dunkin' Donuts,Donut Shop,Donuts,77
+Engrained Café,Café,Café,77
+Sauce and Bread Kitchen,Café,Café,77
+Starbucks,Coffee Shop,Coffee Shop,77
+Uncommon Ground,New American Restaurant,New American,77
+Ellipsis Coffeehouse,Coffee Shop,Coffee Shop,77

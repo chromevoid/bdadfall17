@@ -1,0 +1,18 @@
+val mydata = sc.textFile("/user/jy2234/project/crimesBirths/crimesBirths.txt")
+
+val x = mydata.map(line => line.split(",")(5).toInt)
+val y = mydata.map(line => line.split(",")(2).toInt)
+val xy = mydata.map(line => line.split(",")(2).toInt * line.split(",")(5).toInt)
+val xSquare = mydata.map(line => line.split(",")(5).toInt * line.split(",")(5).toInt)
+
+val ySum = y.sum()
+val xSquareSum = xSquare.sum()
+val xSum = x.sum()
+val xySum = xy.sum()
+val n = mydata.count()
+val xSumSquare = xSum * xSum
+
+val a = (ySum * xSquareSum - xSum * xySum) / (n * xSquareSum - xSumSquare)
+a: Double = 144.29494426196203
+val b = (n * xySum - xSum * ySum) / (n * xSquareSum - xSumSquare)
+b: Double = 3.258937595263345

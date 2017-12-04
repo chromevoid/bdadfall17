@@ -1,0 +1,29 @@
+val mydata = sc.textFile("/user/jy2234/project/crimesTxt/crimes.txt")
+val mydata_split = mydata.map(line => line.split(","))
+val mydata_monthday = mydata_split.map(line => line(1)+","+line(2)+","+line(3)+","+line(4)+","+line(5)+","+line(6)+","+line(7)+","+line(8)+","+line(9).split("/")(0)+","+line(9).split("/")(1))
+val mydata_hour12 = mydata_monthday.map(line => line.substring(11, 13)+","+line.substring(20))
+val mydata_hour12_split = mydata_hour12.map(line => line.split(","))
+val mydata12 = mydata_hour12_split.map(line => {
+  var result:String = line(2) + "," + line(3) + "," + line(4) + "," + line(5) + "," + line(6) + "," + line(7) + "," + line(8) + "," + line(9) + "," + line(10) + ",";
+  if (line(1) == "PM") {
+    val hour = line(0).toInt;
+    if (hour == 12) {
+      result = result + line(0);
+    }
+    else {
+      result = result + (hour+12).toString();
+    }
+  }
+  if (line(1) == "AM") {
+    val hour = line(0).toInt;
+    if (hour == 12) {
+      result = result + "00";
+    }
+    else {
+      result = result + line(0);
+    }
+  }
+  result;
+})
+
+mydata12.saveAsTextFile("/user/jy2234/project/crimesYearMonthDayHour/")

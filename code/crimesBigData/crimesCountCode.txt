@@ -1,0 +1,49 @@
+// community with hightest crimes reports code 25: Austin
+// Austin: connected communities: 18 19 20 23 26
+
+// /user/jy2234/project/newRawData/crimes.txt
+
+val mydata = sc.textFile("/user/jy2234/project/newRawData/crimes.txt").map(line => line.substring(0,2) + "," + line.substring(3,5) + "," + line.substring(6,10) + "," + line.substring(11))
+
+val mydata_keyByCommunity = mydata.keyBy(line => line.split(",")(5))
+val crimesCount = mydata_keyByCommunity.groupByKey().map(line => line._1 + "," + line._2.size.toString())
+
+// crimesCount.take(10)
+// res18: Array[String] = Array(8,2210, 60,373, 4,442, 57,268, 20,448, 19,1268, 42,936, 15,862, 53,976, 48,335)
+
+
+val count = crimesCount.map(_.split(",")(1).toInt).sum()
+// 65499
+
+val crimesRate = crimesCount.map(line => line.split(",")(0) + "," + ((line.split(",")(1).toInt) / count).toString())
+
+// crimesRate.take(10)
+// res20: Array[String] = Array(8,0.033740973144628164, 60,0.005694743431197423, 4,0.006748194628925633, 57,0.004091665521611017, 20,0.006839799080901998, 19,0.01935907418433869, 42,0.014290294508313104, 15,0.013160506267271256, 53,0.01490099085482221, 48,0.005114581902013771)
+
+crimesRate.saveAsTextFile("/user/jy2234/project/newCleanDataCrimes")
+
+/*
+ *  key by year month community
+ *
+ */
+
+val mydata_group = mydata.keyBy(line => (line.split(",")(0), line.split(",")(2), line.split(",")(5)))
+
+// scala> mydata_group.count()
+// res2: Long = 771935 
+
+val crimesCount_group = mydata_group.groupByKey().map(line => line._1 + "," + line._2.size.toString())
+
+// crimesCount_group.take(10)
+// res4: Array[String] = Array((01,2016,28),2, (05,2016,59),76, (05,2016,71),574, (04,2016,14),10, (02,2015,29),449, (01,2016,31),1, (01,2016,75),2, (02,2016,28),4, (08,2015,31),1, (04,2015,23),3)
+
+val crimesCount_reformat = crimesCount_group.map(line => line.substring(1)).map(line => line.split("\\)")(0)+line.split("\\)")(1)).keyBy(line => (line.split(",")(0), line.split(",")(1)))
+
+val count_group = mydata.keyBy(line => (line.split(",")(0), line.split(",")(2))).groupByKey().map(line => line._1 + "," + line._2.size.toString()).map(line => line.substring(1)).map(line => line.split("\\)")(0)+line.split("\\)")(1)).keyBy(line => (line.split(",")(0), line.split(",")(1)))
+
+val join = crimesCount_reformat.join(count_group).map(line => line._2._1 + "," + line._2._2.split(",")(2))
+
+val crimesRate_group = join.map(line => line.split(",")(0) + "," + line.split(",")(1) + "," + line.split(",")(2) + "," + ((line.split(",")(3).toDouble) / (line.split(",")(4).toDouble)).toString())
+
+crimesRate_group.saveAsTextFile("/user/jy2234/project/newCleanDataCrimes")
+

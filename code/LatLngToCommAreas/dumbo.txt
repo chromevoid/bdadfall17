@@ -1,0 +1,7 @@
+java -version
+yarn classpath
+javac -classpath `yarn classpath`:. -d . *.java
+
+jar -cvf Coffee.jar *.class
+
+hadoop jar Coffee.jar Coffee /input/path/coffee.csv /output/path/outputFolder &

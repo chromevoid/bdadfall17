@@ -1,0 +1,51 @@
+val mydata = sc.textFile("/user/jy2234/project/raw/Crimes.txt")
+
+val mydata_splitByQoute = mydata.map(line => line.split("\""))
+
+val mydata_format = mydata_splitByQoute.map(line => {
+  var result = line(0)
+  for (i <- 1 until line.size) {
+    val subline = line(i).split(", ")
+    if (subline.size == 1) {
+      result = result + line(i)
+    }
+    else {
+      for (j <- 0 until subline.size) {
+        result = result + "@" + subline(j)
+      }
+    }
+  }
+  result
+})
+
+val mydata_clean = mydata_format.map(line => {
+  var result = line
+  if (line.split(",").size == 12) {
+    val line_split = line.split(",")
+    result = line_split(0)
+    for (i <- 1 until 5) {
+      result = result + "," + line_split(i)
+    }
+    result = result + "," + "@" + line_split(5) + "@" + line_split(6)
+    for (i <- 7 until 12) {
+      result = result + "," + line_split(i)
+    }
+  }
+  if (line.split(",").size == 13) {
+    val line_split = line.split(",")
+    result = line_split(0)
+    for (i <- 1 until 5) {
+      result = result + "," + line_split(i)
+    }
+    result = result + "," + "@" + line_split(5) + "@" + line_split(6) + "@" + line_split(7)
+    for (i <- 8 until 13) {
+      result = result + "," + line_split(i)
+    }
+  }
+  result
+})
+
+val mydata_final = mydata_clean.filter(_.split(",")(9) != "").filter(_.split(",")(9) != "0")
+
+mydata_final.saveAsTextFile("/user/jy2234/project/clean/")
+

@@ -1,0 +1,56 @@
+id
+  Data Type: int
+  Range: 20749 to 11143277
+  Unique identifier for the record.
+
+date
+  Data Type: string
+  Range: 2013 to 2017
+  Date when the incident occurred. this is sometimes a best estimate.
+
+block
+  Data Type: string
+  String length: 13 to 35
+  The partially redacted address where the incident occurred, placing it on the same block as the actual address.
+
+IUCR
+  Data Type: string
+  Distinct: 367
+  String length: 4
+  The Illinois Unifrom Crime Reporting code. This is directly linked to the Primary Type and Description. See the list of IUCR codes at https://data.cityofchicago.org/d/c7ck-438e.
+
+primaryType
+  Data Type: string
+  Range: 5 to 13
+  The primary description of the IUCR code.
+
+description
+  Data Type: string
+  Range: 5 to 59
+  The secondary description of the IUCR code, a subcategory of the primary description.
+
+locationDescription
+  Data Type: string
+  Range: 0 to 47
+  Description of the location where the incident occurred.
+
+arrest
+  Data Type: bool
+  Range: True or False
+  Indicates whether an arrest was made.
+
+domestic
+  Data Type: bool
+  Range: True or False
+  Indicates whether the incident was domestic-related as defined by the Illinois Domestic Violence Act.
+
+communityArea
+  Data Type: string
+  Distinct: 79, should be 77, need to clean the format
+  Indicates the community area where the incident occurred. Chicago has 77 community areas. See the community areas at https://data.cityofchicago.org/d/cauq-8yn6.
+
+year
+  Data Type: int
+  Range: 2013 to 2017
+  Year the incident occurred.
+
