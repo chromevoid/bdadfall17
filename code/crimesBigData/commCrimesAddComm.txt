@@ -1,0 +1,463 @@
+val commCrimes_1 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",1"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_2 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",2"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_3 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",3"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_4 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",4"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_5 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",5"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_6 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",6"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_7 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",7"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_8 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",8"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_9 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",9"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_10 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",10"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_11 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",11"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_12 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",12"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_13 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",13"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_14 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",14"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_15 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",15"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_16 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",16"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_17 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",17"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_18 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",18"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_19 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",19"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_20 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",20"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_21 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",21"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_22 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",22"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_23 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",23"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_24 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",24"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_25 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",25"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_26 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",26"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_27 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",27"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_28 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",28"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_29 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",29"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_30 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",30"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_31 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",31"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_32 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",32"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_33 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",33"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_34 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",34"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_35 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",35"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_36 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",36"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_37 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",37"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_38 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",38"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_39 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",39"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_40 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",40"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_41 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",41"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_42 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",42"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_43 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",43"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_44 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",44"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_45 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",45"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_46 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",46"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_47 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",47"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_48 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",48"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_49 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",49"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_50 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",50"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_51 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",51"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_52 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",52"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_53 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",53"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_54 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",54"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_55 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",55"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_56 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",56"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_57 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",57"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_58 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",58"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_59 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",59"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_60 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",60"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_61 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",61"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_62 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",62"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_63 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",63"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_64 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",64"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_65 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",65"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_66 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",66"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_67 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",67"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_68 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",68"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_69 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",69"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_70 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",70"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_71 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",71"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_72 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",72"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_73 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",73"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_74 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",74"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_75 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",75"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_76 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",76"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimes_77 = commCrimes_groupBy.map(ln => {
+  val f1 = ln._1 + ",77"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commCrimesComm = commCrimes_1.union(commCrimes_2.union(commCrimes_3.union(commCrimes_4.union(commCrimes_5.union(commCrimes_6.union(commCrimes_7.union(commCrimes_8.union(commCrimes_9.union(commCrimes_10.union(commCrimes_11.union(commCrimes_12.union(commCrimes_13.union(commCrimes_14.union(commCrimes_15.union(commCrimes_16.union(commCrimes_17.union(commCrimes_18.union(commCrimes_19.union(commCrimes_20.union(commCrimes_21.union(commCrimes_22.union(commCrimes_23.union(commCrimes_24.union(commCrimes_25.union(commCrimes_26.union(commCrimes_27.union(commCrimes_28.union(commCrimes_29.union(commCrimes_30.union(commCrimes_31.union(commCrimes_32.union(commCrimes_33.union(commCrimes_34.union(commCrimes_35.union(commCrimes_36.union(commCrimes_37.union(commCrimes_38.union(commCrimes_39.union(commCrimes_40.union(commCrimes_41.union(commCrimes_42.union(commCrimes_43.union(commCrimes_44.union(commCrimes_45.union(commCrimes_46.union(commCrimes_47.union(commCrimes_48.union(commCrimes_49.union(commCrimes_50.union(commCrimes_51.union(commCrimes_52.union(commCrimes_53.union(commCrimes_54.union(commCrimes_55.union(commCrimes_56.union(commCrimes_57.union(commCrimes_58.union(commCrimes_59.union(commCrimes_60.union(commCrimes_61.union(commCrimes_62.union(commCrimes_63.union(commCrimes_64.union(commCrimes_65.union(commCrimes_66.union(commCrimes_67.union(commCrimes_68.union(commCrimes_69.union(commCrimes_70.union(commCrimes_71.union(commCrimes_72.union(commCrimes_73.union(commCrimes_74.union(commCrimes_75.union(commCrimes_76.union(commCrimes_77))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))

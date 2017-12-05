@@ -1,10 +1,54 @@
-// /user/jy2234/project/geo/crimesCount.txt
+// /user/jy2234/project/geo/commCrimes.txt
 // /user/jy2234/project/geo/distance.txt
 
-val crimesCount = sc.textFile("/user/jy2234/project/geo/crimesCount.txt")
+val commCrimes = sc.textFile("/user/jy2234/project/geo/commCrimes.txt")
 val distance = sc.textFile("/user/jy2234/project/geo/distance.txt")
+// Array[String] = Array(2015,1,1,0.014157575757575758, 2015,1,2,0.011975757575757575)
+// Array[String] = Array(4,1,0.03562555849645766, 4,2,0.05007299744936414)
 
-crimesCount.take(2)
-distance.take(2)
+val commCrimes_keyBy = commCrimes.map(_.split(",")).map(fs => (fs(0) + "," + fs(1), fs(2) + "," + fs(3)))
+// Array[(String, String)] = Array((2015,1,1,0.014157575757575758))
 
+val commCrimes_groupBy = commCrimes_keyBy.groupByKey()
+// Array[(String, Iterable[String])]
+// [("year,month", Iterable["comm,crimesRrate"])]
 
+// see commCrimesAddComm.txt
+commCrimesAddComm
+// [("year,month,comm", Iterable["comm,crimesRrate"])]
+
+val distance_keyBy = distance.map(_.split(",")).map(fs => (fs(0), fs(1) + "," + fs(2)))
+// Array[(String, String)] = Array((4,1,0.03562555849645766))
+
+val distance_groupBy = distance_keyBy.groupByKey()
+// Array[(String, Iterable[String])]
+
+val commC = commCrimesAddComm.keyBy(ln => ln._1.split(",")(1))
+// Array[(String, (String, Iterable[String]))]
+val join = commC.join(distance_groupBy)
+// Array[(String, ( (String, Iterable[String]), Iterable[String] ))]
+// ("comm", ( ("year,comm", Iterable["comm, crimesRate"]), Iterable["comm, distance"] ))
+
+val commCrimes_geo = join.map(ln => {
+  val t1 = ln._1
+  val t2 = ln._2
+  val c = t2._1
+  val yearcomm_string = c._1
+  val commCrimes = c._2
+  val d = t2._2
+  val thisComm = ln._1.split(",")(1)
+  for (each <- ln._2) {
+    val comm = each.split(",")(0)
+    val rate = each.split(",")(1).toDouble
+    if (thisComm != comm) {
+
+    }
+  }
+})
+
+val join_raw = commCrimes.join(distance)
+
+join_raw.take(2)
+// Array[(String, (String, String))] = Array((4,(2015,1,4,0.0074181818181818186,4,1,0.03562555849645766)), (4,(2015,1,4,0.0074181818181818186,4,2,0.05007299744936414)))
+
+val join = join_raw.map(ln => ln._2._1 + ln._2._2).map(ln => ln.split(",")(0) + "," + ln.split(",")(1) + "," + ln.split(",")(2) + "," + )
