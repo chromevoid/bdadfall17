@@ -1,0 +1,10 @@
+// /user/jy2234/project/geo/crimesCount.txt
+// /user/jy2234/project/geo/distance.txt
+
+val crimesCount = sc.textFile("/user/jy2234/project/geo/crimesCount.txt")
+val distance = sc.textFile("/user/jy2234/project/geo/distance.txt")
+
+crimesCount.take(2)
+distance.take(2)
+
+
