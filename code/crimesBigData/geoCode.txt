@@ -16,6 +16,9 @@ val commCrimes_groupBy = commCrimes_keyBy.groupByKey()
 // see commCrimesAddComm.txt
 commCrimesAddComm
 // [("year,month,comm", Iterable["comm,crimesRrate"])]
+commCrimesAddComm.saveAsTextFile("/user/jy2234/project/commCrimesAddComm")
+val commCrimesAddComm_String = sc.textFile("/user/jy2234/project/commCrimesAddComm")
+// count = 2387
 
 val distance_keyBy = distance.map(_.split(",")).map(fs => (fs(0), fs(1) + "," + fs(2)))
 // Array[(String, String)] = Array((4,1,0.03562555849645766))
@@ -23,32 +26,48 @@ val distance_keyBy = distance.map(_.split(",")).map(fs => (fs(0), fs(1) + "," + 
 val distance_groupBy = distance_keyBy.groupByKey()
 // Array[(String, Iterable[String])]
 
-val commC = commCrimesAddComm.keyBy(ln => ln._1.split(",")(1))
+/*
+ *  New Section
+ *  rdd needed: commCrimesAddComm, distance_groupBy
+ */
+
+val commC = commCrimesAddComm.keyBy(ln => ln._1.split(",")(2))
 // Array[(String, (String, Iterable[String]))]
 val join = commC.join(distance_groupBy)
 // Array[(String, ( (String, Iterable[String]), Iterable[String] ))]
-// ("comm", ( ("year,comm", Iterable["comm, crimesRate"]), Iterable["comm, distance"] ))
+// ("comm", ( ("year,month,comm", Iterable["comm, crimesRate"]), Iterable["comm, distance"] ))
 
 val commCrimes_geo = join.map(ln => {
-  val t1 = ln._1
-  val t2 = ln._2
-  val c = t2._1
-  val yearcomm_string = c._1
-  val commCrimes = c._2
-  val d = t2._2
-  val thisComm = ln._1.split(",")(1)
-  for (each <- ln._2) {
+  val field1 = ln._1
+  val field2 = ln._2
+  val c = field2._1
+  val str = c._1
+  val it_c = c._2
+  val it_d = field2._2
+
+  val thisComm = field1
+  var result: Double = 0.0
+  // for each community's crimes rate
+  for (each <- it_c) {
     val comm = each.split(",")(0)
     val rate = each.split(",")(1).toDouble
-    if (thisComm != comm) {
-
+    for (d <- it_d) {
+      val comm_d = d.split(",")(0)
+      val weight = d.split(",")(1).toDouble
+      if (comm == comm_d) {
+        result = result + rate * weight
+      }
     }
   }
+  str + "," + result.toString()
 })
 
-val join_raw = commCrimes.join(distance)
+commCrimes_geo.persist()
+commCrimes_geo.count()
+commCrimes_geo.take(2)
 
-join_raw.take(2)
-// Array[(String, (String, String))] = Array((4,(2015,1,4,0.0074181818181818186,4,1,0.03562555849645766)), (4,(2015,1,4,0.0074181818181818186,4,2,0.05007299744936414)))
+val sorted = commCrimes_geo.sortBy(_.split(",")(2).toInt).sortBy(_.split(",")(1).toInt).sortBy(_.split(",")(0))
 
-val join = join_raw.map(ln => ln._2._1 + ln._2._2).map(ln => ln.split(",")(0) + "," + ln.split(",")(1) + "," + ln.split(",")(2) + "," + )
+sorted.saveAsTextFile("/user/jy2234/project/geoFeature")
+
+
