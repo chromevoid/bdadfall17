@@ -186,7 +186,7 @@ val valuesAndPreds1 = parsedData1.map { point =>
 }
 
 val MSE1 = valuesAndPreds1.map{case(v, p) => math.pow((v - p), 2)}.mean()
-// MSE40: Double = 1.937754778632165E-4
+// MSE1: Double = 1.937754778632165E-4
 // Mean Square Error
 
 val parsedData2 = comm2.map { line =>
@@ -234,6 +234,20 @@ val valuesAndPreds4 = parsedData4.map { point =>
 val MSE4 = valuesAndPreds4.map{case(v, p) => math.pow((v - p), 2)}.mean()
 // MSE4: Double = 4.966409263442565E-5
 
+val parsedData5 = comm5.map { line =>
+  val parts = line.split(',')
+  LabeledPoint(parts(0).toDouble, Vectors.dense(parts(1).split(' ').map(_.toDouble)))
+}.cache()
+
+val model5 = LinearRegressionWithSGD.train(parsedData5, numIterations, stepSize)
+
+val valuesAndPreds5 = parsedData5.map { point =>
+  val prediction = model5.predict(point.features)
+  (point.label, prediction)
+}
+
+val MSE5 = valuesAndPreds5.map{case(v, p) => math.pow((v - p), 2)}.mean()
+// MSE5: Double = 2.777633499591063E-5
 
 
 
