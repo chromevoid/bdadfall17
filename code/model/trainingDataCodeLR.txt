@@ -1,0 +1,222 @@
+val mydata = sc.textFile("/user/jy2234/project/formatTraining/trainingData.txt")
+
+val mydata_keyBy = mydata.map(ln => ln.split(",")).map(fs => (fs(2), fs(3)+","+fs(4)+","+fs(5)+","+fs(6)))
+
+val mydata_groupByKey = mydata_keyBy.groupByKey()
+
+val comm1 = mydata_groupByKey.filter(_._1 == "1").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm2 = mydata_groupByKey.filter(_._1 == "2").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm3 = mydata_groupByKey.filter(_._1 == "3").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm4 = mydata_groupByKey.filter(_._1 == "4").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm5 = mydata_groupByKey.filter(_._1 == "5").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm6 = mydata_groupByKey.filter(_._1 == "6").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm7 = mydata_groupByKey.filter(_._1 == "7").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm8 = mydata_groupByKey.filter(_._1 == "8").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm9 = mydata_groupByKey.filter(_._1 == "9").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm10 = mydata_groupByKey.filter(_._1 == "10").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm11 = mydata_groupByKey.filter(_._1 == "11").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm12 = mydata_groupByKey.filter(_._1 == "12").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm13 = mydata_groupByKey.filter(_._1 == "13").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm14 = mydata_groupByKey.filter(_._1 == "14").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm15 = mydata_groupByKey.filter(_._1 == "15").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm16 = mydata_groupByKey.filter(_._1 == "16").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm17 = mydata_groupByKey.filter(_._1 == "17").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm18 = mydata_groupByKey.filter(_._1 == "18").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm19 = mydata_groupByKey.filter(_._1 == "19").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm20 = mydata_groupByKey.filter(_._1 == "20").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm21 = mydata_groupByKey.filter(_._1 == "21").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm22 = mydata_groupByKey.filter(_._1 == "22").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm23 = mydata_groupByKey.filter(_._1 == "23").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm24 = mydata_groupByKey.filter(_._1 == "24").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm25 = mydata_groupByKey.filter(_._1 == "25").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm26 = mydata_groupByKey.filter(_._1 == "26").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm27 = mydata_groupByKey.filter(_._1 == "27").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm28 = mydata_groupByKey.filter(_._1 == "28").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm29 = mydata_groupByKey.filter(_._1 == "29").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm30 = mydata_groupByKey.filter(_._1 == "30").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm31 = mydata_groupByKey.filter(_._1 == "31").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm32 = mydata_groupByKey.filter(_._1 == "32").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm33 = mydata_groupByKey.filter(_._1 == "33").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm34 = mydata_groupByKey.filter(_._1 == "34").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm35 = mydata_groupByKey.filter(_._1 == "35").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm36 = mydata_groupByKey.filter(_._1 == "36").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm37 = mydata_groupByKey.filter(_._1 == "37").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm38 = mydata_groupByKey.filter(_._1 == "38").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm39 = mydata_groupByKey.filter(_._1 == "39").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm40 = mydata_groupByKey.filter(_._1 == "40").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm41 = mydata_groupByKey.filter(_._1 == "41").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm42 = mydata_groupByKey.filter(_._1 == "42").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm43 = mydata_groupByKey.filter(_._1 == "43").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm44 = mydata_groupByKey.filter(_._1 == "44").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm45 = mydata_groupByKey.filter(_._1 == "45").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm46 = mydata_groupByKey.filter(_._1 == "46").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm47 = mydata_groupByKey.filter(_._1 == "47").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm48 = mydata_groupByKey.filter(_._1 == "48").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm49 = mydata_groupByKey.filter(_._1 == "49").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm50 = mydata_groupByKey.filter(_._1 == "50").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm51 = mydata_groupByKey.filter(_._1 == "51").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm52 = mydata_groupByKey.filter(_._1 == "52").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm53 = mydata_groupByKey.filter(_._1 == "53").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm54 = mydata_groupByKey.filter(_._1 == "54").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm55 = mydata_groupByKey.filter(_._1 == "55").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm56 = mydata_groupByKey.filter(_._1 == "56").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm57 = mydata_groupByKey.filter(_._1 == "57").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm58 = mydata_groupByKey.filter(_._1 == "58").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm59 = mydata_groupByKey.filter(_._1 == "59").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm60 = mydata_groupByKey.filter(_._1 == "60").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm61 = mydata_groupByKey.filter(_._1 == "61").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm62 = mydata_groupByKey.filter(_._1 == "62").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm63 = mydata_groupByKey.filter(_._1 == "63").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm64 = mydata_groupByKey.filter(_._1 == "64").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm65 = mydata_groupByKey.filter(_._1 == "65").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm66 = mydata_groupByKey.filter(_._1 == "66").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm67 = mydata_groupByKey.filter(_._1 == "67").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm68 = mydata_groupByKey.filter(_._1 == "68").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm69 = mydata_groupByKey.filter(_._1 == "69").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm70 = mydata_groupByKey.filter(_._1 == "70").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm71 = mydata_groupByKey.filter(_._1 == "71").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm72 = mydata_groupByKey.filter(_._1 == "72").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm73 = mydata_groupByKey.filter(_._1 == "73").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm74 = mydata_groupByKey.filter(_._1 == "74").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm75 = mydata_groupByKey.filter(_._1 == "75").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm76 = mydata_groupByKey.filter(_._1 == "76").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+val comm77 = mydata_groupByKey.filter(_._1 == "77").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3))
+
+val commFile1 = mydata_groupByKey.filter(_._1 == "1").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/1")
+val commFile2 = mydata_groupByKey.filter(_._1 == "2").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/2")
+val commFile3 = mydata_groupByKey.filter(_._1 == "3").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/3")
+val commFile4 = mydata_groupByKey.filter(_._1 == "4").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/4")
+val commFile5 = mydata_groupByKey.filter(_._1 == "5").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/5")
+val commFile6 = mydata_groupByKey.filter(_._1 == "6").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/6")
+val commFile7 = mydata_groupByKey.filter(_._1 == "7").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/7")
+val commFile8 = mydata_groupByKey.filter(_._1 == "8").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/8")
+val commFile9 = mydata_groupByKey.filter(_._1 == "9").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/9")
+val commFile10 = mydata_groupByKey.filter(_._1 == "10").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/10")
+val commFile11 = mydata_groupByKey.filter(_._1 == "11").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/11")
+val commFile12 = mydata_groupByKey.filter(_._1 == "12").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/12")
+val commFile13 = mydata_groupByKey.filter(_._1 == "13").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/13")
+val commFile14 = mydata_groupByKey.filter(_._1 == "14").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/14")
+val commFile15 = mydata_groupByKey.filter(_._1 == "15").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/15")
+val commFile16 = mydata_groupByKey.filter(_._1 == "16").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/16")
+val commFile17 = mydata_groupByKey.filter(_._1 == "17").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/17")
+val commFile18 = mydata_groupByKey.filter(_._1 == "18").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/18")
+val commFile19 = mydata_groupByKey.filter(_._1 == "19").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/19")
+val commFile20 = mydata_groupByKey.filter(_._1 == "20").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/20")
+val commFile21 = mydata_groupByKey.filter(_._1 == "21").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/21")
+val commFile22 = mydata_groupByKey.filter(_._1 == "22").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/22")
+val commFile23 = mydata_groupByKey.filter(_._1 == "23").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/23")
+val commFile24 = mydata_groupByKey.filter(_._1 == "24").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/24")
+val commFile25 = mydata_groupByKey.filter(_._1 == "25").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/25")
+val commFile26 = mydata_groupByKey.filter(_._1 == "26").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/26")
+val commFile27 = mydata_groupByKey.filter(_._1 == "27").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/27")
+val commFile28 = mydata_groupByKey.filter(_._1 == "28").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/28")
+val commFile29 = mydata_groupByKey.filter(_._1 == "29").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/29")
+val commFile30 = mydata_groupByKey.filter(_._1 == "30").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/30")
+val commFile31 = mydata_groupByKey.filter(_._1 == "31").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/31")
+val commFile32 = mydata_groupByKey.filter(_._1 == "32").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/32")
+val commFile33 = mydata_groupByKey.filter(_._1 == "33").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/33")
+val commFile34 = mydata_groupByKey.filter(_._1 == "34").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/34")
+val commFile35 = mydata_groupByKey.filter(_._1 == "35").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/35")
+val commFile36 = mydata_groupByKey.filter(_._1 == "36").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/36")
+val commFile37 = mydata_groupByKey.filter(_._1 == "37").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/37")
+val commFile38 = mydata_groupByKey.filter(_._1 == "38").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/38")
+val commFile39 = mydata_groupByKey.filter(_._1 == "39").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/39")
+val commFile40 = mydata_groupByKey.filter(_._1 == "40").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/40")
+val commFile41 = mydata_groupByKey.filter(_._1 == "41").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/41")
+val commFile42 = mydata_groupByKey.filter(_._1 == "42").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/42")
+val commFile43 = mydata_groupByKey.filter(_._1 == "43").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/43")
+val commFile44 = mydata_groupByKey.filter(_._1 == "44").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/44")
+val commFile45 = mydata_groupByKey.filter(_._1 == "45").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/45")
+val commFile46 = mydata_groupByKey.filter(_._1 == "46").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/46")
+val commFile47 = mydata_groupByKey.filter(_._1 == "47").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/47")
+val commFile48 = mydata_groupByKey.filter(_._1 == "48").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/48")
+val commFile49 = mydata_groupByKey.filter(_._1 == "49").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/49")
+val commFile50 = mydata_groupByKey.filter(_._1 == "50").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/50")
+val commFile51 = mydata_groupByKey.filter(_._1 == "51").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/51")
+val commFile52 = mydata_groupByKey.filter(_._1 == "52").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/52")
+val commFile53 = mydata_groupByKey.filter(_._1 == "53").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/53")
+val commFile54 = mydata_groupByKey.filter(_._1 == "54").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/54")
+val commFile55 = mydata_groupByKey.filter(_._1 == "55").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/55")
+val commFile56 = mydata_groupByKey.filter(_._1 == "56").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/56")
+val commFile57 = mydata_groupByKey.filter(_._1 == "57").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/57")
+val commFile58 = mydata_groupByKey.filter(_._1 == "58").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/58")
+val commFile59 = mydata_groupByKey.filter(_._1 == "59").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/59")
+val commFile60 = mydata_groupByKey.filter(_._1 == "60").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/60")
+val commFile61 = mydata_groupByKey.filter(_._1 == "61").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/61")
+val commFile62 = mydata_groupByKey.filter(_._1 == "62").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/62")
+val commFile63 = mydata_groupByKey.filter(_._1 == "63").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/63")
+val commFile64 = mydata_groupByKey.filter(_._1 == "64").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/64")
+val commFile65 = mydata_groupByKey.filter(_._1 == "65").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/65")
+val commFile66 = mydata_groupByKey.filter(_._1 == "66").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/66")
+val commFile67 = mydata_groupByKey.filter(_._1 == "67").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/67")
+val commFile68 = mydata_groupByKey.filter(_._1 == "68").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/68")
+val commFile69 = mydata_groupByKey.filter(_._1 == "69").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/69")
+val commFile70 = mydata_groupByKey.filter(_._1 == "70").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/70")
+val commFile71 = mydata_groupByKey.filter(_._1 == "71").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/71")
+val commFile72 = mydata_groupByKey.filter(_._1 == "72").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/72")
+val commFile73 = mydata_groupByKey.filter(_._1 == "73").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/73")
+val commFile74 = mydata_groupByKey.filter(_._1 == "74").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/74")
+val commFile75 = mydata_groupByKey.filter(_._1 == "75").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/75")
+val commFile76 = mydata_groupByKey.filter(_._1 == "76").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/76")
+val commFile77 = mydata_groupByKey.filter(_._1 == "77").flatMap(ln => ln._2).map(ln => ln.split(",")(0)+","+ln.split(",")(1)+" "+ln.split(",")(2)+" "+ln.split(",")(3)).saveAsTextFile("/user/jy2234/project/training/77")
+
+/*
+ * New Section
+ *
+ */
+
+import org.apache.spark.mllib.regression.LabeledPoint
+import org.apache.spark.mllib.regression.LinearRegressionModel
+import org.apache.spark.mllib.regression.LinearRegressionWithSGD
+import org.apache.spark.mllib.linalg.Vectors
+
+val numIterations = 100
+val stepSize = 0.00000001
+
+val parsedData1 = comm1.map { line =>
+  val parts = line.split(',')
+  LabeledPoint(parts(0).toDouble, Vectors.dense(parts(1).split(' ').map(_.toDouble)))
+}.cache()
+
+val model1 = LinearRegressionWithSGD.train(parsedData1, numIterations, stepSize)
+
+val valuesAndPreds1 = parsedData1.map { point =>
+  val prediction = model1.predict(point.features)
+  (point.label, prediction)
+}
+
+val MSE1 = valuesAndPreds1.map{case(v, p) => math.pow((v - p), 2)}.mean()
+// MSE40: Double = 1.937754778632165E-4
+// Mean Square Error
+
+
+
+val parsedData40 = comm40.map { line =>
+  val parts = line.split(',')
+  LabeledPoint(parts(0).toDouble, Vectors.dense(parts(1).split(' ').map(_.toDouble)))
+}.cache()
+
+val model40 = LinearRegressionWithSGD.train(parsedData40, numIterations, stepSize)
+
+val valuesAndPreds40 = parsedData40.map { point =>
+  val prediction = model40.predict(point.features)
+  (point.label, prediction)
+}
+
+val MSE40 = valuesAndPreds40.map{case(v, p) => math.pow((v - p), 2)}.mean()
+// MSE40: Double = 1.0506858440731951E-4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
