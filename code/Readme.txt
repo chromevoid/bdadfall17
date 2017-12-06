@@ -10,7 +10,7 @@ crimesBigData
 	geoCode.txt
 		-- To calculate the geo feature: Geo_i = SUM (Weight_jn * Community_jn)
 	poiCode.txt
-	    -- To calculate the poi feature
+		-- To calculate the poi feature
 crimesBirths
 	connectCrimesBirths.sql
 		-- To connect crimes dataset and births dataset
