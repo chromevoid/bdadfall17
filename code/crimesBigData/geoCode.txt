@@ -11,7 +11,7 @@ val commCrimes_keyBy = commCrimes.map(_.split(",")).map(fs => (fs(0) + "," + fs(
 
 val commCrimes_groupBy = commCrimes_keyBy.groupByKey()
 // Array[(String, Iterable[String])]
-// [("year,month", Iterable["comm,crimesRrate"])]
+// [("year,month", Iterable["comm,crimesRate"])]
 
 // see commCrimesAddComm.txt
 commCrimesAddComm

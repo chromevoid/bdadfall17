@@ -1,0 +1,174 @@
+val d1 = sc.textFile("/user/yz2444/project/taxi_flow/part-00000").filter(line=>line.split(",")(0)=="2017")
+val d2 = d1.filter(line=>line.split(",")(1)=="7")
+d2.coalesce(1,true).saveAsTextFile("/user/yz2444/project/taxi_flow/2017_07/")
+
+
+val data = sc.textFile("/user/yz2444/project/taxi_flow/2017_07/part-00000")
+val data_community_code = data.map(line=>line.split(",")).map(field=>field(2)+","+field(3))
+
+We used outsource application to generate the matrix for:
+count of taxi flow 
+normalization of taxi flow
+
+after that
+
+val t1 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(0).toFloat).sum
+
+val t2 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(1).toFloat).sum
+
+val t3 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(2).toFloat).sum
+
+val t4 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(3).toFloat).sum
+
+val t5 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(4).toFloat).sum
+
+val t6 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(5).toFloat).sum
+
+val t7 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(6).toFloat).sum
+
+val t8 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(7).toFloat).sum
+
+val t9 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(8).toFloat).sum
+
+val t10 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(9).toFloat).sum
+
+val t11 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(10).toFloat).sum
+
+val t12 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(11).toFloat).sum
+
+val t13 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(12).toFloat).sum
+
+val t14 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(13).toFloat).sum
+
+val t15 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(14).toFloat).sum
+
+val t16 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(15).toFloat).sum
+
+val t17 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(16).toFloat).sum
+
+val t18 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(17).toFloat).sum
+
+val t19 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(18).toFloat).sum
+
+val t20 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(19).toFloat).sum
+
+val t21 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(20).toFloat).sum
+
+val t22 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(21).toFloat).sum
+
+val t23 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(22).toFloat).sum
+
+val t24 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(23).toFloat).sum
+
+val t25 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(24).toFloat).sum
+
+val t26 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(25).toFloat).sum
+
+val t27 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(26).toFloat).sum
+
+val t28 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(27).toFloat).sum
+
+val t29 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(28).toFloat).sum
+
+val t30 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(29).toFloat).sum
+
+val t31 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(30).toFloat).sum
+
+val t32 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(31).toFloat).sum
+
+val t33 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(32).toFloat).sum
+
+val t34 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(33).toFloat).sum
+
+val t35 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(34).toFloat).sum
+
+val t36 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(35).toFloat).sum
+
+val t37 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(36).toFloat).sum
+
+val t38 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(37).toFloat).sum
+
+val t39 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(38).toFloat).sum
+
+val t40 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(39).toFloat).sum
+
+val t41 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(40).toFloat).sum
+
+val t42 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(41).toFloat).sum
+
+val t43 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(42).toFloat).sum
+
+val t44 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(43).toFloat).sum
+
+val t45 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(44).toFloat).sum
+
+val t46 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(45).toFloat).sum
+
+val t47 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(46).toFloat).sum
+
+val t48 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(47).toFloat).sum
+
+val t49 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(48).toFloat).sum
+
+val t50 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(49).toFloat).sum
+
+val t51 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(50).toFloat).sum
+
+val t52 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(51).toFloat).sum
+
+val t53 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(52).toFloat).sum
+
+val t54 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(53).toFloat).sum
+
+val t55 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(54).toFloat).sum
+
+val t56 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(55).toFloat).sum
+
+val t57 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(56).toFloat).sum
+
+val t58 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(57).toFloat).sum
+
+val t59 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(58).toFloat).sum
+
+val t60 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(59).toFloat).sum
+
+val t61 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(60).toFloat).sum
+
+val t62 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(61).toFloat).sum
+
+val t63 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(62).toFloat).sum
+
+val t64 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(63).toFloat).sum
+
+val t65 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(64).toFloat).sum
+
+val t66 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(65).toFloat).sum
+
+val t67 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(66).toFloat).sum
+
+val t68 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(67).toFloat).sum
+
+val t69 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(68).toFloat).sum
+
+val t70 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(69).toFloat).sum
+
+val t71 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(70).toFloat).sum
+
+val t72 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(71).toFloat).sum
+
+val t73 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(72).toFloat).sum
+
+val t74 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(73).toFloat).sum
+
+val t75 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(74).toFloat).sum
+
+val t76 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(75).toFloat).sum
+
+val t77 = sc.textFile("/user/yz2444/taxi_flow_matrix/2017_07_matrix_normalized.csv").map(line=>line.split(";")(76).toFloat).sum
+
+val r = List(t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t23,t24,t25,t26,t27,t28,t29,t30,t31,t32,t33,t34,t35,t36,t37,t38,t39,t40,t41,t42,t43,t44,t45,t46,t47,t48,t49,t50,t51,t52,t53,t54,t55,t56,t57,t58,t59,t60,t61,t62,t63,t64,t65,t66,t67,t68,t69,t70,t71,t72,t73,t74,t75,t76,t77)
+
+Here we got all taxi_flow_rate from coummnity code 1 -77 for 2017_01 
+for (i <-r) println(i)
+
+

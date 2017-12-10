@@ -1,0 +1,3 @@
+val crimes_raw = sc.textFile("/user/jy2234/project/testInputCrime/")
+
+val crimes_count = crimes_raw.map((_, 1)).reduceByKey(_ + _)
