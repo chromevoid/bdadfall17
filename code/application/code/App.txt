@@ -198,9 +198,16 @@ val coffee = coffee_count_join.map(ln => {
 // taxi.count()
 // taxi.take(10)
 
+val poi_feature = coffee.keyBy(_.split(",")(0))
+val geo_feature = geo.keyBy(_.split(",")(0))
+val taxi_feature = taxi.keyBy(_.split(",")(0))
 
+val geo_taxi = geo_feature.join(taxi_feature).map(ln => ln._1 + "," + ln._2._1.split(",")(1) + "," + ln._2._2.split(",")(1))
+val geo_taxi_feature = geo_taxi.keyBy(_.split(",")(0))
+val poi_geo_taxi = poi_feature.join(geo_taxi_feature).map(ln => ln._1 + "," + ln._2._1.split(",")(1) + "," + ln._2._2.split(",")(1) + ln._2._2.split(",")(2))
 
 // PART VI: MODEL
+// 201702 actual crimes rate: 0.023445250900736254
 
 
 
