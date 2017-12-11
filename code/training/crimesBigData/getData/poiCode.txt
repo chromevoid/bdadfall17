@@ -1,0 +1,27 @@
+// /user/jy2234/project/poiRaw/coffee.txt
+
+val mydata = sc.textFile("/user/jy2234/project/poiRaw/coffee.txt")
+
+val d1 = mydata.map(ln => "1,"+ln)
+val d2 = mydata.map(ln => "2,"+ln)
+val d3 = mydata.map(ln => "3,"+ln)
+val d4 = mydata.map(ln => "4,"+ln)
+val d5 = mydata.map(ln => "5,"+ln)
+val d6 = mydata.map(ln => "6,"+ln)
+val d7 = mydata.map(ln => "7,"+ln)
+val d8 = mydata.map(ln => "8,"+ln)
+val d9 = mydata.map(ln => "9,"+ln)
+val d10 = mydata.map(ln => "10,"+ln)
+val d11 = mydata.map(ln => "11,"+ln)
+val d12 = mydata.map(ln => "12,"+ln)
+
+val d = d1.union(d2.union(d3.union(d4.union(d5.union(d6.union(d7.union(d8.union(d9.union(d10.union(d11.union(d12)))))))))))
+val d2017 = d1.union(d2.union(d3.union(d4.union(d5.union(d6.union(d7))))))
+
+val y1 = d.map(ln => "2015," + ln)
+val y2 = d.map(ln => "2016," + ln)
+val y3 = d2017.map(ln => "2017," + ln)
+
+val y = y1.union(y2.union(y3))
+
+y.saveAsTextFile("/user/jy2234/project/poiFeature")

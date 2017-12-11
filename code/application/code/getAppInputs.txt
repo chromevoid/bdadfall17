@@ -1,0 +1,10 @@
+// Get 201701 inputs to predict 201702 crimes rate
+
+// community
+val crimes = sc.textFile("/user/jy2234/project/testInputCrime/").filter(ln => ln.split(",")(0) == "01" && ln.split(",")(1) == "2017").map(ln => ln.split(",")(2))
+
+// communityPickup,communityDropoff
+val taxi = sc.textFile("/user/jy2234/project/taxi_flow/2017_01/").map(ln => ln.split(",")(2) + "," + ln.split(",")(3))
+
+// community
+val coffee = sc.textFile("/user/jy2234/project/newRawData/coffee.txt").map(ln => ln.split(",")(3))

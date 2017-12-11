@@ -1,0 +1,16 @@
+// /user/jy2234/project/newRawData/coffee.txt
+
+val mydata = sc.textFile("/user/jy2234/project/newRawData/coffee.txt")
+
+val mydata_count = mydata.map(line => line.split(",")(3)).map((_, 1)).reduceByKey(_ + _)
+
+mydata_count.count()
+// res15: Long = 76
+
+val coffeeCommCount = mydata_count.sortBy(_._1.toInt)
+
+val total = mydata.count()
+
+val coffeeReformat = coffeeCommCount.map(ln => ln._1 + "," + ln._2.toString())
+
+coffeeReformat.saveAsTextFile("/user/jy2234/project/newCleanDataCoffee")

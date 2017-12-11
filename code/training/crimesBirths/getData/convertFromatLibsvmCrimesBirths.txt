@@ -1,0 +1,3 @@
+val mydata = sc.textFile("crimesBirths.txt")
+val mydata_libsvm = mydata.map(line => line.split(",")(2) + " 1:" + line.split(",")(5))
+mydata_libsvm.saveAsTextFile("/user/jy2234/project/libsvmCrimesBirths")

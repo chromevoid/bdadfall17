@@ -1,0 +1,57 @@
+val mydata = sc.textFile("/user/jy2234/project/newRawData/commCenters.txt")
+
+// .keyBy(_.split(";")(0))
+
+val result = mydata.collect()
+
+val mylist = scala.collection.mutable.ListBuffer.empty[String]
+
+for (r1 <- result) {
+  val c1 = r1.split(";")(0)
+  val x1 = r1.split(";")(1).toDouble
+  val y1 = r1.split(";")(2).toDouble
+  for (r2 <- result) {
+    val c2 = r2.split(";")(0)
+    val x2 = r2.split(";")(1).toDouble
+    val y2 = r2.split(";")(2).toDouble
+    val distance = 1 / math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2))
+    val mycontent = c1 + "," + c2 + "," + distance.toString()
+    mylist += mycontent
+  }
+}
+
+mylist.size
+// 5929
+77 * 77
+// 5929
+
+val result = sc.parallelize(mylist)
+val distance = result.filter(!_.contains("Infinity"))
+
+val distance_sum_raw = distance.keyBy(_.split(",")(0))
+val distance_sum_group = distance_sum_raw.groupByKey()
+val distance_sum = distance_sum_group.map(line => {
+  val it = line._2
+  var sum: Double = 0.0;
+  for (each <- it) {
+    sum = sum + each.split(",")(2).toDouble
+  }
+  line._1 + "," + sum.toString()
+})
+
+distance_sum.count()
+// 77
+
+distance.count()
+// 5852
+
+val distance_normalized_raw = distance.keyBy(_.split(",")(0)).join(distance_sum.keyBy(_.split(",")(0)))
+
+val distance_normalized = distance_normalized_raw.map(ln => ln._1 + "," + ln._2._1 + "," + ln._2._2).map(ln => ln.split(",")(0) + "," + ln.split(",")(2) + "," + (ln.split(",")(3).toDouble / ln.split(",")(5).toDouble).toString())
+
+
+distance_normalized.saveAsTextFile("/user/jy2234/project/distance")
+
+
+
+
