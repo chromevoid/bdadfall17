@@ -9,7 +9,8 @@ object App {
   val spark = SparkSession.builder().appName("Crimes Rate Inference").getOrCreate()
 
   def main(args: Array[String]): Unit = {
-      
+    // ./execute.sh crimes 
+
     // PART I: GET CRIMES RATE
 
     // "community"
@@ -204,6 +205,7 @@ object App {
       result
     })
 
+
     // PART V: GET INPUT FORMAT
     // poi, geo, taxi
     // coffee.count()
@@ -221,17 +223,11 @@ object App {
     val geo_taxi_feature = geo_taxi.keyBy(_.split(",")(0))
     val poi_geo_taxi = poi_feature.join(geo_taxi_feature).map(ln => ln._1 + "," + ln._2._1.split(",")(1) + "," + ln._2._2.split(",")(1) + "," + ln._2._2.split(",")(2))
 
+
     // PART VI: MODEL
-    // 201702 actual crimes rate: 0.023445250900736254
-
-
-    /* **********
-    PART VI: MODEL
-    // 201702 actual crimes rate: 0.023445250900736254
-    * ********** */
 
     // Load trained model
-    val modelPath = "/tmp/spark-random-forest-regression-model"
+    val modelPath = "/user/jy2234/test17/spark-random-forest-regression-model"
     val model: RandomForestRegressionModel = RandomForestRegressionModel.load(modelPath)
 
     // Convert RDD to DataFrame
@@ -250,6 +246,6 @@ object App {
     val prediciton = model.setFeaturesCol("features").transform(feat).select("community", "prediction")
 
     prediciton.orderBy("community").show(77)
-    prediciton.orderBy("community").coalesce(1).write.csv("prediction.csv")
+    // prediciton.orderBy("community").coalesce(1).write.csv("prediction.csv")
   }
 }

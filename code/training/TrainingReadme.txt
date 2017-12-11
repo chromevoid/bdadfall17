@@ -2,7 +2,7 @@ crimesBigData
   build
     LinearRegression.scala
       -- To build model using linear regression: [training] predicted month 201502-201706, [testing] predicted month 201707
-    RandomForestRegrssion.scala
+    RandomForestRegression.scala
       -- To build model using random forest regression: [training] predicted month 201502-201706, [testing] predicted month 201707
     Results.txt
       -- The RMSE results of the two models with/without POI feature
