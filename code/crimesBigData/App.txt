@@ -1,0 +1,63 @@
+// PART I: GET CRIME RATE
+
+// "community"
+val crimes_raw = sc.textFile("path")
+
+// ("comunity", count)
+val crimes_count = crimes_raw.map((_, 1)).reduceByKey(_ + _)
+
+// sum
+val sum: Double = crimes_count.map(ln => ln._2.toInt).sum()
+
+// "community,rate"
+val crimes_rate = crimes_count.map(ln => ln._1 + "," + (ln._2 / sum).toDouble)
+
+
+// PART II: GET GEO FEATURE
+
+// "community,toCommunity,distance"
+val distance = sc.textFile("/user/jy2234/project/distance")
+
+val crimes_rate_key = crimes_rate.keyBy(_.split(",")(0))
+val distance_key = distance.keyBy(_.split(",")(1))
+
+// ("toComm",("comm,toComm,dis","toComm,rate"))
+val join = distance_key.join(crimes_rate_key)
+
+// "comm,geoSub"
+val geoSub = join.map(ln => {
+   val comm = ln._2._1.split(",")(0)
+   val dis = ln._2._1.split(",")(2).toDouble
+   val rate = ln._2._2.split(",")(1).toDouble
+   val result = comm + "," + (dis * rate).toString
+   result
+})
+
+// ("comm",["geoSub", ...])
+val geo_groupby = geoSub.map(ln => (ln.split(",")(0), ln.split(",")(1))).groupByKey()
+
+// "comm,geo"
+val geo = geo_groupby.map(ln => {
+  var result = ln._1
+  val itStr = ln._2
+  var sum: Double = 0.0
+  for (each <- itStr) {
+    sum = sum + each.toDouble
+  }
+  result = result + "," + sum.toString()
+  result
+})
+
+
+// PART III: GET TAXI FEATURE
+
+// "pickup,dropoff"
+val taxi_raw = sc.textFile("path")
+val count = raw.map((_, 1)).reduceByKey(_ + _).map(ln => ln._1 + "," + ln._2.toString())
+
+
+
+
+
+
+

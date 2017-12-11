@@ -1,3 +1,15 @@
-val crimes_raw = sc.textFile("/user/jy2234/project/testInputCrime/")
+val crimes_raw_data = sc.textFile("/user/jy2234/project/testInputCrime/").filter(ln => ln.split(",")(0) == "01" && ln.split(",")(1) == "2015")
+
+val singleLine = crimes_raw_data.take(1)(0)
+val time = singleLine.split(",")(1) + "," + singleLine.split(",")(0).toInt.toString()
+
+val crimes_raw = crimes_raw_data.map(ln => ln.split(",")(2))
 
 val crimes_count = crimes_raw.map((_, 1)).reduceByKey(_ + _)
+
+val sum: Double = crimes_count.map(ln => ln._2.toInt).sum()
+
+val crimes_rate = crimes_count.map(ln => ln._1 + "," + (ln._2 / sum).toDouble)
+
+crimes_rate.saveAsTextFile("/user/jy2234/project/201702/crimesRate")
+

@@ -65,8 +65,8 @@ val sumGroupby = sum.map(ln => (ln.split(",")(0), ln.split(",")(1)))
 
 // ("dropoff",("pickup,count","sum"))
 val join = tuple.join(sumGroupby)
-// "dropoff,pickup,subFeature"
-val taxiSubFeature = join.map(ln => {
+// "dropoff,pickup,subFeature" = "comm,toComm,weight"
+val taxiWeight = join.map(ln => {
   val keyStr = ln._1
   val valueStr = ln._2
   val pickup = valueStr._1.split(",")(0)
@@ -76,25 +76,40 @@ val taxiSubFeature = join.map(ln => {
   val result = keyStr + "," + pickup + "," + feature.toString()
   result
 })
+// "toComm,rate"
+val crimesRate = sc.textFile("/user/yz2444/commCrimes.txt").filter(ln => ln.split(",")(1) == "1" && ln.split(",")(0) == "2017").map(ln => ln.split(",")(2) + "," + ln.split(",")(3))
 
-// sort pickup
-val taxiSubSort = taxiSubFeature.sortBy(_.split(",")(1).toInt).sortBy(_.split(",")(0).toInt)
-val taxiSubFeatureGroupBy = taxiSubSort.map(ln => (ln.split(",")(0),ln.split(",")(1)+","+ln.split(",")(2))).groupByKey()
-// "year,month,community 1:value 2:value 3:value ... 77:value"
-// sort dropoff
-val taxiFeature = taxiSubFeatureGroupBy.map(ln => {
-  val comm = ln._1
+val taxiWeight_key = taxiWeight.keyBy(_.split(",")(1))
+val crimesRate_key = crimesRate.keyBy(_.split(",")(0))
+
+// ("toComm",("comm,toComm,weight","toComm,rate"))
+val join = taxiWeight_key.join(crimesRate_key)
+
+// "comm,taxiSub"
+val taxiSub = join.map(ln => {
+   val comm = ln._2._1.split(",")(0)
+   val weight = ln._2._1.split(",")(2).toDouble
+   val rate = ln._2._2.split(",")(1).toDouble
+   val result = comm + "," + (weight * rate).toString
+   result
+})
+
+// ("comm",["taxiSub", ...])
+val taxi_groupby = taxiSub.map(ln => (ln.split(",")(0), ln.split(",")(1))).groupByKey()
+
+// "comm,taxi"
+val taxi = taxi_groupby.map(ln => {
+  var result = ln._1
   val itStr = ln._2
-  var result: String = time + "," + comm
+  var sum: Double = 0.0
   for (each <- itStr) {
-    result = result + " " + each.split(",")(0) + ":" + each.split(",")(1)
+    sum = sum + each.toDouble
   }
+  result = time + "," + result + "," + sum.toString()
   result
 })
 
-val taxiFeatureSort = taxiFeature.sortBy(_.split(",")(2).split(" ")(0).toInt)
-
-taxiFeatureSort.saveAsTextFile("/user/yz2444/project/taxiFeatures/201701/")
+taxi.saveAsTextFile("/user/yz2444/project/taxiFeatures/201701/")
 
 
 
