@@ -6,9 +6,9 @@ import org.apache.spark.sql.SparkSession
 // /user/jy2234/training17
 
 object RandomForestRegression {
-  val conf = new SparkConf().setAppName("LinearRegression").setMaster("local[*]")
+  val conf = new SparkConf().setAppName("RandomForestRegression")
   val sc = new SparkContext(conf)
-  val spark = SparkSession.builder.appName("LinearRegression").getOrCreate()
+  val spark = SparkSession.builder.appName("RandomForestRegression").getOrCreate()
 
   def train(trainFilePath: String): RandomForestRegressionModel = {
     // Training

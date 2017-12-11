@@ -7,7 +7,7 @@ import org.apache.spark.sql.SparkSession
 
 object LinearRegression {
   // Configuration for Spark.
-  val conf = new SparkConf().setAppName("LinearRegression").setMaster("local[*]")
+  val conf = new SparkConf().setAppName("LinearRegression")
   val sc = new SparkContext(conf)
   val spark = SparkSession.builder.appName("LinearRegression").getOrCreate()
 
