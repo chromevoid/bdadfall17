@@ -1,5 +1,5 @@
 // "year,month,pickup,dropoff"
-val raw = sc.textFile("/user/yz2444/project/taxi_flow/2017_07/")
+val raw = sc.textFile("/user/yz2444/project/taxi_flow/2017_01/")
 val singleLine = raw.take(1)(0)
 val time = singleLine.split(",")(0) + "," + singleLine.split(",")(1)
 // "year,month,pickup,dropoff,count"
@@ -77,9 +77,11 @@ val taxiSubFeature = join.map(ln => {
   result
 })
 
+// sort pickup
 val taxiSubSort = taxiSubFeature.sortBy(_.split(",")(1).toInt).sortBy(_.split(",")(0).toInt)
 val taxiSubFeatureGroupBy = taxiSubSort.map(ln => (ln.split(",")(0),ln.split(",")(1)+","+ln.split(",")(2))).groupByKey()
 // "year,month,community 1:value 2:value 3:value ... 77:value"
+// sort dropoff
 val taxiFeature = taxiSubFeatureGroupBy.map(ln => {
   val comm = ln._1
   val itStr = ln._2
@@ -89,7 +91,10 @@ val taxiFeature = taxiSubFeatureGroupBy.map(ln => {
   }
   result
 })
-taxiFeature.saveAsTextFile("/user/yz2444/project/taxiFeatures/201707/")
+
+val taxiFeatureSort = taxiFeature.sortBy(_.split(",")(2).split(" ")(0).toInt)
+
+taxiFeatureSort.saveAsTextFile("/user/yz2444/project/taxiFeatures/201701/")
 
 
 
