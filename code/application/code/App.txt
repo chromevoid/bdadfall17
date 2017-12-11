@@ -6,11 +6,14 @@ val crimes_raw = sc.textFile("/user/jy2234/test17/crimes/")
 // ("comunity", count)
 val crimes_count = crimes_raw.map((_, 1)).reduceByKey(_ + _)
 
-// sum
-val crimes_sum: Double = crimes_count.map(ln => ln._2.toInt).sum()
+// ("community","population")
+val population = sc.textFile("/user/jy2234/test17/population/").map(ln => (ln.split(",")(0), ln.split(",")(1)))
+
+// ("community",(count,"population"))
+val crimes_rate_join = crimes_count.join(population)
 
 // "community,rate"
-val crimes_rate = crimes_count.map(ln => ln._1 + "," + (ln._2 / crimes_sum).toDouble)
+val crimes_rate = crimes_rate_join.map(ln => ln._1 + "," + (ln._2._1 / ln._2._2.toDouble))
 
 // ("community", "community,rate")
 val crimes_rate_key = crimes_rate.keyBy(_.split(",")(0))
@@ -204,7 +207,7 @@ val taxi_feature = taxi.keyBy(_.split(",")(0))
 
 val geo_taxi = geo_feature.join(taxi_feature).map(ln => ln._1 + "," + ln._2._1.split(",")(1) + "," + ln._2._2.split(",")(1))
 val geo_taxi_feature = geo_taxi.keyBy(_.split(",")(0))
-val poi_geo_taxi = poi_feature.join(geo_taxi_feature).map(ln => ln._1 + "," + ln._2._1.split(",")(1) + "," + ln._2._2.split(",")(1) + ln._2._2.split(",")(2))
+val poi_geo_taxi = poi_feature.join(geo_taxi_feature).map(ln => ln._1 + "," + ln._2._1.split(",")(1) + "," + ln._2._2.split(",")(1) + "," + ln._2._2.split(",")(2))
 
 // PART VI: MODEL
 // 201702 actual crimes rate: 0.023445250900736254

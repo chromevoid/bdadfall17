@@ -32,6 +32,8 @@ crimesRate.saveAsTextFile("/user/jy2234/project/newCleanDataCrimes")
  *
  */
 
+val population = sc.textFile("/user/jy2234/test17/population")
+
 val mydata = sc.textFile("/user/jy2234/project/newRawData/crimes.txt").map(line => line.substring(0,2) + "," + line.substring(3,5) + "," + line.substring(6,10) + "," + line.substring(11))
 
 val mydata_group = mydata.keyBy(line => (line.split(",")(0), line.split(",")(2), line.split(",")(5)))
@@ -44,8 +46,33 @@ val crimesCount_group = mydata_group.groupByKey().map(line => line._1 + "," + li
 // crimesCount_group.take(10)
 // res4: Array[String] = Array((01,2016,28),2, (05,2016,59),76, (05,2016,71),574, (04,2016,14),10, (02,2015,29),449, (01,2016,31),1, (01,2016,75),2, (02,2016,28),4, (08,2015,31),1, (04,2015,23),3)
 
-val crimesCount_reformat = crimesCount_group.map(line => line.substring(1)).map(line => line.split("\\)")(0)+line.split("\\)")(1)).keyBy(line => (line.split(",")(0), line.split(",")(1)))
+val crimesCount_reformat = crimesCount_group.map(line => line.substring(1)).map(line => line.split("\\)")(0)+line.split("\\)")(1))
+// .keyBy(line => (line.split(",")(0), line.split(",")(1)))
 
+
+val cr = crimesCount_reformat.keyBy(_.split(",")(2))
+val pop = population.keyBy(_.split(",")(0))
+val rate_join = cr.join(pop)
+val rate = rate_join.map(ln => {
+  val valueStr = ln._2
+  val crStr = valueStr._1
+  val popStr = valueStr._2
+  val cr = crStr.split(",")(3).toDouble
+  val pop = popStr.split(",")(1).toDouble
+  val rate = cr / pop
+  val result = crStr.split(",")(1) + "," + crStr.split(",")(0).toInt.toString() + "," + crStr.split(",")(2) + "," + rate.toString()
+  result
+})
+
+rate.map(_.split(",")(3).toDouble)
+
+// !!!!!!!!!!
+val commRate = rate.filter(!_.contains("2017,8,")).filter(!_.contains("2017,9,")).filter(!_.contains("2017,10,")).filter(!_.contains("2017,11,"))
+commRate.map(_.split(",")(3).toDouble)
+commRate.saveAsTextFile("/user/jy2234/project/geo/commRate")
+
+
+// wrong crime rate
 val count_group = mydata.keyBy(line => (line.split(",")(0), line.split(",")(2))).groupByKey().map(line => line._1 + "," + line._2.size.toString()).map(line => line.substring(1)).map(line => line.split("\\)")(0)+line.split("\\)")(1)).keyBy(line => (line.split(",")(0), line.split(",")(1)))
 
 val join = crimesCount_reformat.join(count_group).map(line => line._2._1 + "," + line._2._2.split(",")(2))

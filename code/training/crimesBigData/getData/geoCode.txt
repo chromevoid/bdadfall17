@@ -1,23 +1,23 @@
-// /user/jy2234/project/geo/commCrimes.txt
+// /user/jy2234/project/geo/commRate.txt
 // /user/jy2234/project/geo/distance.txt
 
-val commCrimes = sc.textFile("/user/jy2234/project/geo/commCrimes.txt")
+val commRate = sc.textFile("/user/jy2234/project/geo/commRate")
 val distance = sc.textFile("/user/jy2234/project/geo/distance.txt")
 // Array[String] = Array(2015,1,1,0.014157575757575758, 2015,1,2,0.011975757575757575)
 // Array[String] = Array(4,1,0.03562555849645766, 4,2,0.05007299744936414)
 
-val commCrimes_keyBy = commCrimes.map(_.split(",")).map(fs => (fs(0) + "," + fs(1), fs(2) + "," + fs(3)))
+val commRate_keyBy = commRate.map(_.split(",")).map(fs => (fs(0) + "," + fs(1), fs(2) + "," + fs(3)))
 // Array[(String, String)] = Array((2015,1,1,0.014157575757575758))
 
-val commCrimes_groupBy = commCrimes_keyBy.groupByKey()
+val commRate_groupBy = commRate_keyBy.groupByKey()
 // Array[(String, Iterable[String])]
 // [("year,month", Iterable["comm,crimesRrate"])]
 
-// see commCrimesAddComm.txt
-commCrimesAddComm
+// see commRateAddComm.txt
+commRateAddComm
 // [("year,month,comm", Iterable["comm,crimesRrate"])]
-commCrimesAddComm.saveAsTextFile("/user/jy2234/project/commCrimesAddComm")
-val commCrimesAddComm_String = sc.textFile("/user/jy2234/project/commCrimesAddComm")
+commRateAddComm.saveAsTextFile("/user/jy2234/project/commRateAddComm")
+val commRateAddComm_String = sc.textFile("/user/jy2234/project/commRateAddComm")
 // count = 2387
 
 val distance_keyBy = distance.map(_.split(",")).map(fs => (fs(0), fs(1) + "," + fs(2)))
@@ -28,16 +28,16 @@ val distance_groupBy = distance_keyBy.groupByKey()
 
 /*
  *  New Section
- *  rdd needed: commCrimesAddComm, distance_groupBy
+ *  rdd needed: commRateAddComm, distance_groupBy
  */
 
-val commC = commCrimesAddComm.keyBy(ln => ln._1.split(",")(2))
+val commC = commRateAddComm.keyBy(ln => ln._1.split(",")(2))
 // Array[(String, (String, Iterable[String]))]
 val join = commC.join(distance_groupBy)
 // Array[(String, ( (String, Iterable[String]), Iterable[String] ))]
 // ("comm", ( ("year,month,comm", Iterable["comm, crimesRate"]), Iterable["comm, distance"] ))
 
-val commCrimes_geo = join.map(ln => {
+val commRate_geo = join.map(ln => {
   val field1 = ln._1
   val field2 = ln._2
   val c = field2._1
@@ -62,12 +62,12 @@ val commCrimes_geo = join.map(ln => {
   str + "," + result.toString()
 })
 
-commCrimes_geo.persist()
-commCrimes_geo.count()
-commCrimes_geo.take(2)
+commRate_geo.persist()
+commRate_geo.count()
+commRate_geo.take(2)
 
-val sorted = commCrimes_geo.sortBy(_.split(",")(2).toInt).sortBy(_.split(",")(1).toInt).sortBy(_.split(",")(0))
+val sorted = commRate_geo.sortBy(_.split(",")(2).toInt).sortBy(_.split(",")(1).toInt).sortBy(_.split(",")(0))
 
-sorted.saveAsTextFile("/user/jy2234/project/geoFeature")
+sorted.saveAsTextFile("/user/jy2234/project/1211geoFeature")
 
 

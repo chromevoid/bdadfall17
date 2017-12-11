@@ -1,0 +1,463 @@
+val commRate_1 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",1"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_2 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",2"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_3 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",3"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_4 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",4"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_5 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",5"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_6 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",6"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_7 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",7"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_8 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",8"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_9 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",9"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_10 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",10"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_11 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",11"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_12 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",12"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_13 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",13"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_14 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",14"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_15 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",15"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_16 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",16"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_17 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",17"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_18 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",18"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_19 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",19"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_20 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",20"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_21 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",21"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_22 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",22"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_23 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",23"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_24 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",24"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_25 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",25"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_26 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",26"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_27 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",27"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_28 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",28"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_29 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",29"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_30 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",30"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_31 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",31"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_32 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",32"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_33 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",33"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_34 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",34"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_35 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",35"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_36 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",36"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_37 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",37"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_38 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",38"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_39 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",39"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_40 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",40"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_41 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",41"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_42 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",42"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_43 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",43"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_44 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",44"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_45 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",45"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_46 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",46"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_47 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",47"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_48 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",48"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_49 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",49"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_50 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",50"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_51 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",51"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_52 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",52"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_53 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",53"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_54 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",54"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_55 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",55"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_56 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",56"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_57 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",57"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_58 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",58"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_59 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",59"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_60 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",60"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_61 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",61"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_62 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",62"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_63 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",63"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_64 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",64"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_65 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",65"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_66 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",66"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_67 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",67"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_68 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",68"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_69 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",69"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_70 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",70"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_71 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",71"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_72 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",72"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_73 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",73"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_74 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",74"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_75 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",75"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_76 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",76"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRate_77 = commRate_groupBy.map(ln => {
+  val f1 = ln._1 + ",77"
+  val f2 = ln._2
+  (f1, f2)
+})
+
+val commRateAddComm = commRate_1.union(commRate_2.union(commRate_3.union(commRate_4.union(commRate_5.union(commRate_6.union(commRate_7.union(commRate_8.union(commRate_9.union(commRate_10.union(commRate_11.union(commRate_12.union(commRate_13.union(commRate_14.union(commRate_15.union(commRate_16.union(commRate_17.union(commRate_18.union(commRate_19.union(commRate_20.union(commRate_21.union(commRate_22.union(commRate_23.union(commRate_24.union(commRate_25.union(commRate_26.union(commRate_27.union(commRate_28.union(commRate_29.union(commRate_30.union(commRate_31.union(commRate_32.union(commRate_33.union(commRate_34.union(commRate_35.union(commRate_36.union(commRate_37.union(commRate_38.union(commRate_39.union(commRate_40.union(commRate_41.union(commRate_42.union(commRate_43.union(commRate_44.union(commRate_45.union(commRate_46.union(commRate_47.union(commRate_48.union(commRate_49.union(commRate_50.union(commRate_51.union(commRate_52.union(commRate_53.union(commRate_54.union(commRate_55.union(commRate_56.union(commRate_57.union(commRate_58.union(commRate_59.union(commRate_60.union(commRate_61.union(commRate_62.union(commRate_63.union(commRate_64.union(commRate_65.union(commRate_66.union(commRate_67.union(commRate_68.union(commRate_69.union(commRate_70.union(commRate_71.union(commRate_72.union(commRate_73.union(commRate_74.union(commRate_75.union(commRate_76.union(commRate_77))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
