@@ -109,6 +109,8 @@ val taxi = taxi_groupby.map(ln => {
   result
 })
 
+val taxiSort = taxi.sortBy(_.split(",")(2).toInt)
+
 taxi.saveAsTextFile("/user/yz2444/project/taxiFeatures/201701/")
 
 
