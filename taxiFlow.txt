@@ -1,5 +1,5 @@
 // "year,month,pickup,dropoff"
-val raw = sc.textFile("/user/yz2444/project/taxi_flow/2017_01/")
+val raw = sc.textFile("/user/jy2234/project/taxi_flow/2017_01/")
 val singleLine = raw.take(1)(0)
 val time = singleLine.split(",")(0) + "," + singleLine.split(",")(1)
 // "year,month,pickup,dropoff,count"

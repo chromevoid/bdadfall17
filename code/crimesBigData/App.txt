@@ -1,7 +1,7 @@
 // PART I: GET CRIME RATE
 
 // "community"
-val crimes_raw = sc.textFile("path")
+val crimes_raw = sc.textFile("/user/jy2234/test17/crimes/")
 
 // ("comunity", count)
 val crimes_count = crimes_raw.map((_, 1)).reduceByKey(_ + _)
@@ -16,7 +16,7 @@ val crimes_rate = crimes_count.map(ln => ln._1 + "," + (ln._2 / crimes_sum).toDo
 // PART II: GET GEO FEATURE
 
 // "community,toCommunity,distance"
-val distance = sc.textFile("/user/jy2234/project/distance")
+val distance = sc.textFile("/user/jy2234/test17/distance")
 
 val crimes_rate_key = crimes_rate.keyBy(_.split(",")(0))
 val distance_key = distance.keyBy(_.split(",")(1))
@@ -52,7 +52,7 @@ val geo = geo_groupby.map(ln => {
 // PART III: GET TAXI FEATURE
 
 // "pickup,dropoff"
-val taxi_raw = sc.textFile("path")
+val taxi_raw = sc.textFile("/user/jy2234/test17/taxi/")
 
 // "pickup,dropoff,count"
 val taxi_count = raw.map((_, 1)).reduceByKey(_ + _).map(ln => ln._1 + "," + ln._2.toString())
@@ -70,7 +70,7 @@ val setzero = taxi_count.map(ln => {
 }).sortBy(_.split(",")(1).toInt).sortBy(_.split(",")(0).toInt)
 
 // ("dropoff,pickup",0)
-val help = sc.textFile("/user/yz2444/project/taxihelp.txt").map(ln => (ln.split(",")(1)+","+ln.split(",")(0),ln.split(",")(2).toInt))
+val help = sc.textFile("/user/jy2234/test17/help/taxi_help.txt").map(ln => (ln.split(",")(1)+","+ln.split(",")(0),ln.split(",")(2).toInt))
 
 // ("dropoff,pickup",count)
 val count_key = setzero.map(ln => (ln.split(",")(1)+","+ln.split(",")(0),ln.split(",")(2).toInt))
@@ -162,13 +162,13 @@ val taxi = taxi_groupby.map(ln => {
 // PART IV: GET POI FEATURE
 
 // "community"
-val coffee_raw = sc.textFile("path")
+val coffee_raw = sc.textFile("/user/jy2234/test17/poi")
 
 // ("community","count")
 val coffee_count = coffee_raw.raw.map((_, 1)).reduceByKey(_ + _)
 
 // ("community",0)
-val coffee_help = sc.textFile("/user/yz2444/project/taxihelp.txt").map(ln => (ln.split(",")(0),ln.split(",")(1).toInt))
+val coffee_help = sc.textFile("/user/jy2234/test17/help/coffee_help.txt").map(ln => (ln.split(",")(0),ln.split(",")(1).toInt))
 vall coffee_count_key = coffee_count.map(ln => (ln.split(",")(0),ln.split(",")(1).toInt))
 
 // (String, (Int, Option[Int]))
