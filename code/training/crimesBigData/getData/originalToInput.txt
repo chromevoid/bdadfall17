@@ -1,0 +1,80 @@
+val rate = sc.textFile("/user/jy2234/project/original/crimesRate.txt")
+val geo = sc.textFile("/user/jy2234/project/original/geoFeature.txt")
+val poi = sc.textFile("/user/jy2234/project/original/poiFeature.txt")
+val taxi = sc.textFile("/user/jy2234/project/original/taxiFeature.txt")
+
+rate.take(1)
+geo.take(1)
+poi.take(1)
+taxi.take(1)
+
+val rateminus = rate.map(_.split(",")).map(ln => {
+  var year: Int = ln(0).toInt
+  var month: Int = ln(1).toInt
+  if (month == 1) {
+    year = year - 1
+    month = 12
+  }
+  else {
+    month = month - 1
+  }
+  (year.toString()+","+month.toString()+","+ln(2),ln(3))
+})
+
+val tmpR = rateminus
+val tmpG = geo.map(_.split(",")).map(ln => (ln(0)+","+ln(1)+","+ln(2),ln(3)))
+val tmpP = poi.map(_.split(",")).map(ln => (ln(0)+","+ln(1)+","+ln(2),ln(3)))
+val tmpT = taxi.map(_.split(",")).map(ln => (ln(0)+","+ln(1)+","+ln(2),ln(3)))
+
+tmpR.take(1)
+tmpG.take(1)
+tmpP.take(1)
+tmpT.take(1)
+
+val joinRG = tmpR.join(tmpG).map(ln => (ln._1,ln._2._1 + "," + ln._2._2))
+val joinPT = tmpP.join(tmpT).map(ln => (ln._1,ln._2._1 + "," + ln._2._2))
+val join = joinRG.join(joinPT).map(ln => ln._1 + "," + ln._2._1 + "," + ln._2._2)
+
+// 201706 features = 1 months
+val test = join.filter(_.contains("2017,6"))
+// 201501~201705 features = 29 months
+val train = join.filter(!_.contains("2017,6"))
+
+val geo_taxi_test = test.map(_.split(",")).map(ln => {
+  val rate = ln(3)
+  val geo = ln(4)
+  val poi = ln(5)
+  val taxi = ln(6)
+  rate + " 1:" + geo + " 2:" + taxi
+})
+
+val geo_taxi_train = train.map(_.split(",")).map(ln => {
+  val rate = ln(3)
+  val geo = ln(4)
+  val poi = ln(5)
+  val taxi = ln(6)
+  rate + " 1:" + geo + " 2:" + taxi
+})
+
+val poi_geo_taxi_test = test.map(_.split(",")).map(ln => {
+  val rate = ln(3)
+  val geo = ln(4)
+  val poi = ln(5)
+  val taxi = ln(6)
+  rate + " 1:" + poi + " 2:" + geo + " 3:" + taxi
+})
+
+val poi_geo_taxi_train = train.map(_.split(",")).map(ln => {
+  val rate = ln(3)
+  val geo = ln(4)
+  val poi = ln(5)
+  val taxi = ln(6)
+  rate + " 1:" + poi + " 2:" + geo + " 3:" + taxi
+})
+
+
+geo_taxi_test.saveAsTextFile("/user/jy2234/project/features/gttest")
+geo_taxi_train.saveAsTextFile("/user/jy2234/project/features/gttrain")
+poi_geo_taxi_test.saveAsTextFile("/user/jy2234/project/features/pgttest")
+poi_geo_taxi_train.saveAsTextFile("/user/jy2234/project/features/pgttrain")
+

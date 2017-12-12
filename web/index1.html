@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crime Rate Inference in Chicago[2017/07]</title>
+
+    <style>
+        body {
+            width: 100%;
+        }
+
+        .chart {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .bar {
+            fill: steelblue;
+        }
+
+        .bar:hover {
+            fill: brown;
+        }
+
+        .axis text {
+            font: 8px sans-serif;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .x.axis path {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+<h1 style="text-align: center;">Crime Rate Inference in Chicago[2017/07]</h1>
+<svg class="chart"></svg>
+</body>
+
+<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+<script>
+    var totalHeight = 600, totalWidth = 1000;
+    var margin = {top: 20, right: 30, bottom: 60, left:60};
+    var width = totalWidth - margin.left - margin.right;
+    var height = totalHeight - margin.top - margin.bottom;
+
+    var x = d3.scaleBand().rangeRound([0, width]).padding(.1);
+    var y = d3.scaleLinear().range([height, 0]);
+
+    var g = d3.select(".chart")
+    .attr("width", totalWidth)
+    .attr("height", totalHeight)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    d3.csv("data.csv", type, function(error, data) {
+        x.domain(data.map(function(d){return d.community;}));
+        y.domain([0, d3.max(data, function(d) { return d.crimes_rate; })]);
+
+        // x-axis
+        g.append("g").attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x));
+
+        // x-axis title.
+        g.append("g")
+        .attr('transform', 'translate(' + width / 2 + ', ' + (height + 30) + ')')
+        .append('text')
+        .attr('text-anchor', 'middle')
+        .text('Community Number');
+
+        // y-axis
+        g.append("g")
+        .attr("class", "y axis")
+        .call(d3.axisLeft(y));
+
+        // y-axis title
+        g.append("g")
+        .attr('transform', 'translate(' + -45 + ', ' + height/2 + ')')
+        .append('text')
+        .attr('text-anchor', 'middle')
+        .attr('transform', 'rotate(-90)')
+        .text('Crime Rate');
+
+        // bar.
+        g.selectAll(".bar").data(data).enter()
+        .append("rect").attr("class", "bar")
+        .attr("x", function(d){return x(d.community);})
+        .attr("y", function(d){return y(d.crimes_rate);})
+        .attr("height", function(d){return height - y(d.crimes_rate); })
+        .attr("width", x.bandwidth());
+    });
+
+    function type(d) {
+        d.crimes_rate= +d.crimes_rate; // coerce to number
+        return d;
+    }
+</script>
+</html>
+
