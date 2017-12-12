@@ -1,9 +1,9 @@
-val mydata = sc.textFile("/user/jy2234/project/crimesBirths/crimesBirths.txt")
+val mydata = sc.textFile("/user/jy2234/project/crimesBirthsRate").map(_.split("\\[")(1)).map(_.split("\\]")(0))
 
-val x = mydata.map(line => line.split(",")(5).toInt)
-val y = mydata.map(line => line.split(",")(2).toInt)
-val xy = mydata.map(line => line.split(",")(2).toInt * line.split(",")(5).toInt)
-val xSquare = mydata.map(line => line.split(",")(5).toInt * line.split(",")(5).toInt)
+val x = mydata.map(line => line.split(",")(6).toDouble)
+val y = mydata.map(line => line.split(",")(2).toDouble)
+val xy = mydata.map(line => line.split(",")(6).toDouble * line.split(",")(2).toDouble)
+val xSquare = mydata.map(line => line.split(",")(6).toDouble * line.split(",")(6).toDouble)
 
 val ySum = y.sum()
 val xSquareSum = xSquare.sum()
@@ -13,6 +13,6 @@ val n = mydata.count()
 val xSumSquare = xSum * xSum
 
 val a = (ySum * xSquareSum - xSum * xySum) / (n * xSquareSum - xSumSquare)
-a: Double = 144.29494426196203
+a: Double = 0.024875505866072407
 val b = (n * xySum - xSum * ySum) / (n * xSquareSum - xSumSquare)
-b: Double = 3.258937595263345
+b: Double = 0.0010509056545832784

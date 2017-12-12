@@ -1,16 +1,14 @@
-val training = spark.read.format("libsvm").load("libsvmCrimesBirths.txt")
+val training = spark.read.format("libsvm").load("/user/jy2234/project/libsvmCrimesBirths.txt")
 
 import org.apache.spark.ml.regression.LinearRegression
-val lr = new LinearRegression()
-  .setMaxIter(10)
-  .setRegParam(0.3)
-  .setElasticNetParam(0.8)
+val lr = new LinearRegression().setMaxIter(100)
 
 val lrModel = lr.fit(training)
 
 println(s"Coefficients: ${lrModel.coefficients} Intercept: ${lrModel.intercept}")
+// Coefficients: [0.0010509056545832782] Intercept: 0.024875505866072442
+
+println(s"RMSE: ${lrModel.summary.rootMeanSquaredError}")
+// RMSE: 0.0502848828477356
 
 lrModel.summary.residuals.show()
-
-// Coefficients: [3.2562388252990404] 
-// Intercept: 144.58627122226468

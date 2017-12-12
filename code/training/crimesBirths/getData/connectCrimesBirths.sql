@@ -8,12 +8,14 @@ val crimes = sqlCtx.read.format("com.databricks.spark.csv").
 option("delimiter", ",").
 option("header", "true").
 option("inferSchema", "true").
-load("/user/jy2234/project/crimes/crimes.csv")
+load("/user/jy2234/project/cbRate/rate.csv")
 
 crimes.dtypes.foreach(println)
 crimes.show(3)
 
-val crimesCount = crimes.groupBy("community","year").count()
+val crimesCount = crimes.groupBy("year","community").agg(sum("rate"))
+
+crimesCount.show(3)
 
 val births = sqlCtx.read.format("com.databricks.spark.csv").
 option("delimiter", ",").
@@ -34,15 +36,15 @@ val crimesBirths = crimesCount.join(
 crimesBirths.dtypes.foreach(println)
 crimesBirths.show(3)
 
-val newNames = Seq("communityCrimes", "yearCrimes", "countCrimes", "yearBirths", "communityBirths", "countBirths", "rateBirths")
+val newNames = Seq("yearCrimes", "communityCrimes", "rateCrimes", "yearBirths", "communityBirths", "countBirths", "rateBirths")
 val crimesBirthsTable = crimesBirths.toDF(newNames: _*)
 
 val crimesBirthsTrain = crimesBirthsTable.where("yearCrimes = 2015")
 crimesBirthsTrain.persist()
-val crimesBirthsCorr = crimesBirthsTrain.stat.corr("countCrimes","countBirths")
--- crimesBirthsCorr: Double = 0.8123784277941036
+val crimesBirthsCorr = crimesBirthsTrain.stat.corr("rateCrimes","rateBirths")
+-- crimesBirthsCorr: Double = 0.6428782555948118
 
-crimesBirthsTrain.rdd.coalesce(1,true).saveAsTextFile("/user/jy2234/project/crimesBirths/")
+crimesBirthsTrain.rdd.coalesce(1,true).saveAsTextFile("/user/jy2234/project/crimesBirthsRate/")
 
 
 
