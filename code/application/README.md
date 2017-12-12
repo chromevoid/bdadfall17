@@ -5,7 +5,7 @@
 
 # Build Compile Package
 - install sbt
-- under linear/randomforest folder
+- under project folder
 - run `/sbt/bin/./sbt` to start building project
 - enter `compile` to compile
 - enter `package` tp package
