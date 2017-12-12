@@ -1,4 +1,4 @@
-#d3
+# d3
 
 - We use js to read the csv file and visuallize the data using d3.js
 - We put the files in a repo for git pages demo
