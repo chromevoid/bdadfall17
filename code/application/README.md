@@ -1,9 +1,9 @@
 # General Info
 - Dumbo set spark 2.2.0:
-- module load java/1.8.0_72  
-- module load spark/2.2.0
+	- module load java/1.8.0_72  
+	- module load spark/2.2.0
 
-# Build Compile Package:
+# Build Compile Package
 - install sbt
 - under linear/randomforest folder
 - run `/sbt/bin/./sbt` to start building project

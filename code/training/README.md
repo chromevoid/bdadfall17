@@ -1,20 +1,21 @@
 # General Info
-Dumbo set spark 2.2.0:
- module load java/1.8.0_72  
- module load spark/2.2.0
+- Dumbo set spark 2.2.0:
+  - module load java/1.8.0_72  
+  - module load spark/2.2.0
 
-Build Compile Package:
- install sbt
- under linear/randomforest folder
- run `/sbt/bin/./sbt` to start building project
- enter `compile` to compile
- enter `package` tp package
- press ctrl + Z to stop building
- run `./exec.sh`
- get an output.txt file
+# Build Compile Package
+- install sbt
+- under linear/randomforest folder
+- run `/sbt/bin/./sbt` to start building project
+- enter `compile` to compile
+- enter `package` tp package
+- press ctrl + Z to stop building
+- run `./exec.sh`
+- get an output.txt file
 
 
 # Folders and Files
+```
 crimesBigData
   build
     linear * (see sparkproject folder)
@@ -71,6 +72,4 @@ crimesBirths
       -- To connect crimes dataset and births dataset
     convertFromatLibsvmCrimesBirths.txt
       -- To convert the original format to Libsvm format
-
-
-
+```
