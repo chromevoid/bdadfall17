@@ -1,5 +1,4 @@
-General Info:
-
+# General Info
 Dumbo set spark 2.2.0:
  module load java/1.8.0_72  
  module load spark/2.2.0
@@ -15,26 +14,11 @@ Build Compile Package:
  get an output.txt file
 
 
-Folders and Files:
-
+# Folders and Files
 crimesBigData
   build
     linear * (see sparkproject folder)
-        src
-          main
-            LinearRegression.scala
-              -- To build model using linear regression: [training] predicted month 201502-201706, [testing] predicted month 201707
-        exec.sh
-          -- Shell script to execute the 
-        build.sbt      
-          -- To project build configure
     randomforest * (see sparkproject folder)
-        src
-          main
-            RandomForestRegression.scala
-              -- To build model using random forest regression: [training] predicted month 201502-201706, [testing] predicted month 201707
-        exec.sh
-        build.sbt
     Results.txt
       -- The RMSE results of the two models with/without POI feature
   data
@@ -56,7 +40,7 @@ crimesBigData
         -- Data: poi feature from 201501-201707
       taxiFeature.txt
         -- Data: taxi feature from 201501-201707
-  getData * (execution order: crimesRateCode, commRateAddComm, coffeeCountCode -> distanceCode -> geoCode, poiCode, taxiFlow)
+  getData * (execution order: crimesRateCode, commRateAddComm, coffeeCountCode -> distanceCode -> geoCode, poiCode, taxiFlow -> originalToInput)
     coffeeCountCode.txt
       -- To count the number of coffee shops in each community
     commRateAddComm.txt
@@ -67,6 +51,8 @@ crimesBigData
       -- To calculate the distance between every (community_i, community_j) pairs
     geoCode.txt
       -- To calculate the all geo feature: Geo_i = SUM (Weight_jn * CommunityCrimesRate_jn)
+    originalToInput.txt
+      -- To transform datas in the original file to the datas in the input file (format: libsvm)
     poiCode.txt
       -- To calculate the all poi feature
     taxiFlow.txt

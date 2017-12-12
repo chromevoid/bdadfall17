@@ -1,3 +1,4 @@
+// bigdata
 inputs:
   crimes.txt
     (community)
@@ -32,3 +33,18 @@ transformation:
 output:
   prediction
     (community,predictedRate)
+
+// birth
+input:
+  birth-4cols.csv
+    (year,month,birthcount,birthrate)
+
+transformation:
+  birth-4cols.csv
+    (year,month,birthcount,birthrate)
+    (year,month,birthrate)
+    using "0.0010509056545832782 * count + 0.024875505866072442" to get predicted crime rate 
+ 
+output:
+  prediction
+    (year,community,predictedRate)
