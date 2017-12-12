@@ -17,7 +17,7 @@ val setzero = count.map(ln => {
 }).sortBy(_.split(",")(1).toInt).sortBy(_.split(",")(0).toInt)
 
 // ("dropoff,pickup",0)
-val help = sc.textFile("/user/yz2444/project/taxihelp.txt").map(ln => (ln.split(",")(1)+","+ln.split(",")(0),ln.split(",")(2).toInt))
+val help = sc.textFile("/user/jy2234/test17/help/taxi_help.txt").map(ln => (ln.split(",")(1)+","+ln.split(",")(0),ln.split(",")(2).toInt))
 // ("dropoff,pickup",count)
 val count_key = setzero.map(ln => (ln.split(",")(1)+","+ln.split(",")(0),ln.split(",")(2).toInt))
 
@@ -77,7 +77,7 @@ val taxiWeight = join.map(ln => {
   result
 })
 // "toComm,rate"
-val crimesRate = sc.textFile("/user/yz2444/commCrimes.txt").filter(ln => ln.split(",")(1) == "1" && ln.split(",")(0) == "2017").map(ln => ln.split(",")(2) + "," + ln.split(",")(3))
+val crimesRate = sc.textFile("/user/jy2234/project/geo/commRate").filter(ln => ln.split(",")(1) == "1" && ln.split(",")(0) == "2017").map(ln => ln.split(",")(2) + "," + ln.split(",")(3))
 
 val taxiWeight_key = taxiWeight.keyBy(_.split(",")(1))
 val crimesRate_key = crimesRate.keyBy(_.split(",")(0))

@@ -13,7 +13,7 @@ val commRate_groupBy = commRate_keyBy.groupByKey()
 // Array[(String, Iterable[String])]
 // [("year,month", Iterable["comm,crimesRrate"])]
 
-// see commRateAddComm.txt
+// !!!!! see commRateAddComm.txt
 commRateAddComm
 // [("year,month,comm", Iterable["comm,crimesRrate"])]
 commRateAddComm.saveAsTextFile("/user/jy2234/project/commRateAddComm")
