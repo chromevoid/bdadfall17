@@ -1,0 +1,1 @@
+spark-submit --driver-memory 12G --executor-memory 12G --executor-cores 10 --driver-cores 10 --class "LinearRegression" /home/jy2234/sparkproject/linear/target/scala-2.11/linearregression_2.11-1.0.jar > output.txt

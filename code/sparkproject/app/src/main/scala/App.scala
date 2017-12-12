@@ -4,7 +4,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.ml.linalg.{Vectors};
 
 object App {
-  val sf = new SparkConf().setAppName("Crimes Rate Inference").setMaster("local[*]")
+  val sf = new SparkConf().setAppName("Crimes Rate Inference")
   val sc = new SparkContext(sf)
   val spark = SparkSession.builder().appName("Crimes Rate Inference").getOrCreate()
 
@@ -14,13 +14,13 @@ object App {
     // PART I: GET CRIMES RATE
 
     // "community"
-    val crimes_raw = sc.textFile("data/input1701/crimes/")
+    val crimes_raw = sc.textFile("/user/jy2234/test17/crimes/")
 
     // ("comunity", count)
     val crimes_count = crimes_raw.map((_, 1)).reduceByKey(_ + _)
 
     // ("community","population")
-    val population = sc.textFile("data/input1701/population/").map(ln => (ln.split(",")(0), ln.split(",")(1)))
+    val population = sc.textFile("/user/jy2234/test17/population/").map(ln => (ln.split(",")(0), ln.split(",")(1)))
 
     // ("community",(count,"population"))
     val crimes_rate_join = crimes_count.join(population)
@@ -35,7 +35,7 @@ object App {
     // PART II: GET GEO FEATURE
 
     // "community,toCommunity,distance"
-    val distance = sc.textFile("data/input1701/distance")
+    val distance = sc.textFile("/user/jy2234/test17/distance")
 
     // ("toCommunity", "community,toCommunity,distance")
     val distance_key = distance.keyBy(_.split(",")(1))
@@ -71,7 +71,7 @@ object App {
     // PART III: GET TAXI FEATURE
 
     // "pickup,dropoff"
-    val taxi_raw = sc.textFile("data/input1701/taxi/")
+    val taxi_raw = sc.textFile("/user/jy2234/test17/taxi/")
 
     // "pickup,dropoff,count"
     val taxi_count_init = taxi_raw.map((_, 1)).reduceByKey(_ + _).map(ln => ln._1 + "," + ln._2.toString())
@@ -90,7 +90,7 @@ object App {
     }).sortBy(_.split(",")(1).toInt).sortBy(_.split(",")(0).toInt)
 
     // ("dropoff,pickup",0)
-    val taxi_help = sc.textFile("data/input1701/help/taxi_help.txt").map(ln => (ln.split(",")(1)+","+ln.split(",")(0),ln.split(",")(2).toInt))
+    val taxi_help = sc.textFile("/user/jy2234/test17/help/taxi_help.txt").map(ln => (ln.split(",")(1)+","+ln.split(",")(0),ln.split(",")(2).toInt))
 
     // ("dropoff,pickup",count)
     val taxi_count_key = taxi_count_second.map(ln => (ln.split(",")(1)+","+ln.split(",")(0),ln.split(",")(2).toInt))
@@ -178,13 +178,13 @@ object App {
     // PART IV: GET POI FEATURE
 
     // "community"
-    val coffee_raw = sc.textFile("data/input1701/poi")
+    val coffee_raw = sc.textFile("/user/jy2234/test17/poi")
 
     // ("community",count)
     val coffee_count_key = coffee_raw.map((_, 1)).reduceByKey(_ + _)
 
     // ("community",0)
-    val coffee_help = sc.textFile("data/input1701/help/coffee_help.txt").map(ln => (ln.split(",")(0),ln.split(",")(1).toInt))
+    val coffee_help = sc.textFile("/user/jy2234/test17/help/coffee_help.txt").map(ln => (ln.split(",")(0),ln.split(",")(1).toInt))
 
     // (String, (Int, Option[Int]))
     // ("community",(0,count))
@@ -227,7 +227,7 @@ object App {
     // PART VI: MODEL
 
     // Load trained model
-    val modelPath = "/user/jy2234/test17/spark-random-forest-regression-model"
+    val modelPath = "hdfs://babar.es.its.nyu.edu:8020/user/jy2234/test17/spark-random-forest-regression-model"
     val model: RandomForestRegressionModel = RandomForestRegressionModel.load(modelPath)
 
     // Convert RDD to DataFrame

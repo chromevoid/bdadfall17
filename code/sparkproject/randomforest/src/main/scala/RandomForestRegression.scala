@@ -69,3 +69,4 @@ object RandomForestRegression {
     val model = RandomForestRegressionModel.load("/user/jy2234/training17/spark-random-forest-regression-model")
   }
 }
+

@@ -56,12 +56,13 @@ object LinearRegression {
   def main(args: Array[String]): Unit = {
     sc.setLogLevel("ERROR") // Keep Spark quite.
 
-    println("POI, GEO, TAXI.")
-    train_and_test("/user/jy2234/training17/poi_geo_taxi_train.txt", "/user/jy2234/training17/poi_geo_taxi_test.txt")
     println("GEO, TAXI.")
     train_and_test("/user/jy2234/training17/geo_taxi_train.txt", "/user/jy2234/training17/geo_taxi_test.txt")
+    
+    println("POI, GEO, TAXI.")
+    train_and_test("/user/jy2234/training17/poi_geo_taxi_train.txt", "/user/jy2234/training17/poi_geo_taxi_test.txt")
 
     // Save the LinearRegression model.
-    // lrModel.write.overwrite().save("/tmp/spark-linear-regression-model")
+    // lrModel.write.overwrite().save("/user/jy2234/training17/spark-linear-regression-model")
   }
 }
